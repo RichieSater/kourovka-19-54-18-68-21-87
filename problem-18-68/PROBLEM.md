@@ -17,7 +17,7 @@ For \(M\leq G\), a subgroup \(K\leq G\) is a **complement** to \(M\) in
 G=MK\qquad\text{and}\qquad M\cap K=1.
 \]
 
-Equivalently, the product formula forces \(|K|=[G:M]\). The first task must
+Equivalently, the product formula forces \(|K|=\lvert G:M\rvert\). The first task must
 confirm that this is exactly the convention in the cited sources, including
 whether trivial edge cases or "weak complements" ever occur in their
 terminology.

@@ -17,7 +17,7 @@ ledger for the retrieved-file hash.
   exact convention before this becomes fixed terminology.
 - The hypothesis: there is a family \(\mathcal H\) of such subgroups with
   \[
-  \gcd\{[G:H]:H\in\mathcal H\}=1.
+  \gcd\{\lvert G:H\rvert:H\in\mathcal H\}=1.
   \]
 
 Because \(G\) is finite, the family may be replaced by a finite subfamily for
@@ -35,7 +35,7 @@ Thus the problem is a sharp one-generator gap in the nonsoluble case.
 
 The gcd condition suggests a prime-by-prime formulation: for each prime
 \(p\mid |G|\), some \(d\)-generated \(H\leq G\) has
-\(p\nmid [G:H]\), equivalently \(H\) contains a Sylow \(p\)-subgroup of
+\(p\nmid \lvert G:H\rvert\), equivalently \(H\) contains a Sylow \(p\)-subgroup of
 \(G\). The arithmetic equivalence and the Sylow statement are planned first
 lemmas; they have not yet been entered as proved claims.
 

@@ -1,8 +1,8 @@
 SHELL := /bin/bash
 
-.PHONY: check structure tracker status
+.PHONY: check structure tracker notation status
 
-check: structure tracker
+check: structure tracker notation
 	git diff --check
 
 structure:
@@ -10,6 +10,9 @@ structure:
 
 tracker:
 	python3 scripts/check_tracker.py
+
+notation:
+	python3 scripts/check_finite_group_notation.py
 
 status:
 	@sed -n '1,120p' STATUS.md

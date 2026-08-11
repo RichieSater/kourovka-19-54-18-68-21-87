@@ -36,6 +36,17 @@ proof development until a later explicit task resumes the attack order in
 6. Keep correspondence, private messages, and recipient-specific drafts out of
    the repository.
 
+## Finite-group notation (hard rule)
+
+- In every group-theory project, manuscript, research note, review, generated
+  artifact, and final response, conform notation to standard conventions in
+  modern finite group theory.
+- Write the index of a subgroup `M` in `G` as `|G:M|` (in LaTeX,
+  `\lvert G:M\rvert`), never with square delimiters.
+- Normalize imported or adapted prose before circulation. Preserve the original
+  notation only inside a clearly marked verbatim quotation.
+- Treat violations as blocking style-check failures, not discretionary edits.
+
 ## Reuse of earlier work
 
 - Consult `docs/PREVIOUS-WORK-AUDIT.md` before copying a reduction or script.
