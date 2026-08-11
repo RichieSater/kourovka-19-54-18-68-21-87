@@ -288,8 +288,8 @@
           "evidence": "problem-21-87/reviews/02-referee.md; pass on frozen candidate ec734ae960cfe1b408b625f6ecf05e738c793d40"
         },
         "revision_3": {
-          "status": "in_progress",
-          "evidence": "problem-21-87/reviews/03-revision.md; freeze pending"
+          "status": "complete",
+          "evidence": "commit 8ba6bc2bc3eaa02ebfb201a1e2e7cd2a8356d192; problem-21-87/reviews/03-revision.md"
         },
         "referee_3": {
           "status": "not_started",

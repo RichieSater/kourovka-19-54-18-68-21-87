@@ -1,7 +1,7 @@
 # Revision 3 — reproducibility and evidence boundary
 
 - **Base candidate:** ec734ae960cfe1b408b625f6ecf05e738c793d40
-- **Revision candidate:** pending freeze
+- **Revision candidate:** `8ba6bc2bc3eaa02ebfb201a1e2e7cd2a8356d192`
 - **Date:** 2026-08-11
 - **Scope:** clean build, source-manifest validation, negative controls, and
   separation of exploratory computation from proof
