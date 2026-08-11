@@ -1,9 +1,9 @@
 # Manuscript build
 
 `main.tex` is the peer-review draft answering Kourovka Problem 21.87.
-The revised submission source, incorporating all four items in the
-independently supplied minor-revision report, is frozen at
-[`dec0db6701228d2e9db8ec3065f4e0b1fdd98d38`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/dec0db6701228d2e9db8ec3065f4e0b1fdd98d38/problem-21-87/paper).
+The revised submission source, incorporating the independently supplied
+mathematical and English/exposition reports, is frozen at
+[`517f7d30510746c381703413a7a049f2951a4491`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/517f7d30510746c381703413a7a049f2951a4491/problem-21-87/paper).
 
 Build from this directory with the pinned wrapper used for the candidate:
 

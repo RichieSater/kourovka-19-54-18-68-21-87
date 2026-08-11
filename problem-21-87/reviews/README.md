@@ -22,3 +22,12 @@ full pass produced the supplemental, non-milestone pair
 `05-supplemental-revision.md` and `05-supplemental-referee.md`.  The referee
 reviewed the frozen corrected candidate `ada5993f` and again recommended
 circulation for external specialist review.
+
+Two independently supplied, non-milestone reports follow that internal
+audit.  `06-external-referee.md` records a mathematical minor-revision report
+on `ada5993f`, with its response in `06-external-revision.md` and changes
+frozen at `dec0db6`.  `07-exposition-referee.md` records a subsequent
+English/exposition report on `dec0db6`, with its response in
+`07-exposition-revision.md` and changes frozen at `517f7d3`.  The latter is
+expressly not a finite-group-specialist review.  Neither report closes the
+tracked external specialist review requirement.

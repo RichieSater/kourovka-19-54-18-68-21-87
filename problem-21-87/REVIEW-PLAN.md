@@ -1,9 +1,9 @@
 # Problem 21.87 solution and review plan
 
 **Current stage:** Four required internal review rounds and one supplemental
-full re-audit complete; independently supplied minor-revision report answered
-in revised candidate `dec0db6`; verified external specialist review
-outstanding.
+full re-audit complete; independently supplied mathematical and
+English/exposition reports answered in revised candidate `517f7d3`; verified
+external specialist review outstanding.
 **Generic protocol:**
 [`../docs/SOLUTION-REVIEW-WORKFLOW.md`](../docs/SOLUTION-REVIEW-WORKFLOW.md)
 
@@ -32,7 +32,7 @@ internal pass does not count as external specialist peer review.  The exact
 candidate is publicly available in the
 [GitHub referee repository](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/ada5993f83e2c5e19e91a8bf4669eb702de0e45f/problem-21-87).
 
-## Independently supplied referee report
+## Independently supplied mathematical referee report
 
 After public circulation, an independent report reviewed frozen candidate
 `ada5993f`, found no fatal mathematical gap, and issued a “minor revision,
@@ -44,6 +44,19 @@ answered in `reviews/06-external-revision.md` and frozen at
 The repository does not record the reviewer's identity or specialist
 credentials.  The report therefore does not close the distinct external
 finite-group-specialist review requirement.
+
+## Independently supplied English and exposition report
+
+A subsequent report reviewed frozen candidate `dec0db6`, found the paper
+professional and coherent, and issued a minor English/exposition revision
+verdict.  Its four necessary clarifications and four strong polish
+improvements are preserved in `reviews/07-exposition-referee.md`, answered in
+`reviews/07-exposition-revision.md`, and frozen at
+`517f7d30510746c381703413a7a049f2951a4491`.
+
+This report was expressly an English/exposition pass.  It recommends that the
+next review come from a finite-group specialist, so it does not close the
+external specialist review requirement.
 
 ## Initial-solution instructions
 

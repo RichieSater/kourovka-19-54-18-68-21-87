@@ -2,11 +2,12 @@
 
 **Priority:** 3
 **State:** claimed complete solution; four required internal referee passes,
-one supplemental full re-audit, and one independently supplied minor-revision
-report addressed; verified external specialist review outstanding.
+one supplemental full re-audit, and independently supplied mathematical and
+English/exposition reports addressed; verified external specialist review
+outstanding.
 
 **Revised submission candidate:**
-[`dec0db6701228d2e9db8ec3065f4e0b1fdd98d38`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/dec0db6701228d2e9db8ec3065f4e0b1fdd98d38/problem-21-87)
+[`517f7d30510746c381703413a7a049f2951a4491`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/517f7d30510746c381703413a7a049f2951a4491/problem-21-87)
 
 The candidate manuscript proves that Lucchini's general \(d+2\) generator
 bound sharpens to \(d+1\) under the same gcd-of-indices hypothesis. The proof
@@ -23,7 +24,10 @@ and a new Sylow-centralizer orbit count.
 6. [`REVIEW-PLAN.md`](REVIEW-PLAN.md) — frozen internal review lifecycle
 7. [`reviews/06-external-referee.md`](reviews/06-external-referee.md) and
    [`reviews/06-external-revision.md`](reviews/06-external-revision.md) —
-   independently supplied minor-revision report and response
+   independently supplied mathematical minor-revision report and response
+8. [`reviews/07-exposition-referee.md`](reviews/07-exposition-referee.md) and
+   [`reviews/07-exposition-revision.md`](reviews/07-exposition-revision.md) —
+   independently supplied English/exposition report and response
 
 ## Confidence boundary
 

@@ -2,12 +2,13 @@
 
 - **Base candidate:**
   `dec0db6701228d2e9db8ec3065f4e0b1fdd98d38`
+- **Revised candidate:**
+  `517f7d30510746c381703413a7a049f2951a4491`
 - **Referee report:** `reviews/07-exposition-referee.md`
 - **Date:** 2026-08-11
 - **Scope:** surgical English and proof-navigation changes only
-- **Revision status:** all requested changes implemented; the validated
-  manuscript is to be frozen in a new candidate commit recorded in the
-  tracker
+- **Revision status:** all requested changes implemented, validated, and
+  frozen in the candidate commit recorded above
 
 ## Response matrix
 

@@ -26,7 +26,7 @@ required after the initial solution candidate.
 | **19.58** | Claimed complete solution; joint public proof-audit preprint with 19.57, release `v1.0.1` | ✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | Outstanding |
 | **19.54** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
 | **18.68** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
-| **21.87** | Claimed complete solution; [revised submission candidate `dec0db6`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/dec0db6701228d2e9db8ec3065f4e0b1fdd98d38/problem-21-87); independently supplied minor-revision report addressed after four required internal passes and a supplemental re-audit | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ✅/✅ | Outstanding |
+| **21.87** | Claimed complete solution; [revised submission candidate `517f7d3`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/517f7d30510746c381703413a7a049f2951a4491/problem-21-87); independently supplied mathematical and English/exposition reports addressed after four required internal passes and a supplemental re-audit | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ✅/✅ | Outstanding |
 
 `†` Legacy completion is mapped retrospectively from the public repositories'
 commit, release, audit, and referee records. It means that an equivalent
@@ -56,6 +56,13 @@ An independently supplied report on `ada5993f` is preserved at
 answered in `06-external-revision.md` and frozen in revised candidate
 `dec0db6`.  Because the reviewer identity and specialist credentials are not
 recorded, this report does not close the external-specialist-review column.
+
+A subsequent independently supplied English/exposition report on `dec0db6`
+is preserved at `problem-21-87/reviews/07-exposition-referee.md`.  Its
+surgical corrections are answered in `07-exposition-revision.md` and frozen
+in revised candidate `517f7d3`.  The report expressly recommends a
+finite-group specialist as the next reviewer and therefore also leaves the
+external-specialist-review column open.
 
 ## Legacy evidence
 

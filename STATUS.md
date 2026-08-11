@@ -30,6 +30,9 @@ complete proof passed all four required internal referee rounds; the corrected
 candidate `ada5993f` also passed a supplemental full re-audit.  An
 independently supplied report found no fatal mathematical gap and requested
 four minor publication changes, all addressed in revised candidate
-`dec0db6`.  The reviewer identity and specialist status are not recorded, so
+`dec0db6`.  A subsequent independently supplied English/exposition report
+requested surgical clarifications and polish, all addressed in revised
+candidate `517f7d3`.  That second pass was expressly an exposition review,
+and the first reviewer's identity and specialist status are not recorded, so
 verified external specialist review remains outstanding. Problems 19.54 and
 18.68 retain their pre-existing tracked states.
