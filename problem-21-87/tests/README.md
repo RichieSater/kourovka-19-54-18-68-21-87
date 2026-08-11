@@ -1,12 +1,26 @@
 # Test plan
 
-No tests have been implemented.
+The final proof is deductive and uses no finite computation.  Its proof-path
+test is therefore a fail-closed consistency check rather than a database
+certificate:
 
-Planned layers:
+```sh
+python3 check-manuscript.py --self-test
+```
 
-1. generator-set and subgroup-index validation;
-2. gcd and prime-by-prime reformulation tests;
-3. soluble fixtures covered by the known \(d+1\) theorem;
-4. groups known to require several generators, as lower-bound controls;
-5. explicit `UNKNOWN` behavior for incomplete subgroup enumeration;
-6. mutation tests that alter a generator, subgroup index, or gcd row.
+The checker verifies that every citation key is defined, all
+acceptance-critical sources are cited, required proof labels are present, and
+the source manifest has the required rows, schema, retrieval dates, HTTPS
+URLs, proof roles, access notes, and checksums where a public source file was
+available.  It also requires explicit computational-evidence and
+external-review boundaries in the manuscript.
+
+The self-test applies three negative controls and requires each to fail:
+
+1. an undefined citation key;
+2. a malformed source checksum; and
+3. omission of the Guralnick source row.
+
+The exploratory SmallGroups pilot described in the notes is not proof-path
+evidence.  It produced no committed certificate, so neither this checker nor
+the manuscript treats it as exhaustive verification.
