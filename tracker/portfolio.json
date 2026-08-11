@@ -267,7 +267,20 @@
       "external_specialist_review": "outstanding",
       "public_artifacts": [
         "https://github.com/RichieSater/kourovka-19-54-18-68-21-87",
-        "https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/ada5993f83e2c5e19e91a8bf4669eb702de0e45f/problem-21-87"
+        "https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/dec0db6701228d2e9db8ec3065f4e0b1fdd98d38/problem-21-87"
+      ],
+      "external_referee_reports": [
+        {
+          "date": "2026-08-11",
+          "candidate_reviewed": "ada5993f83e2c5e19e91a8bf4669eb702de0e45f",
+          "report_artifact": "problem-21-87/reviews/06-external-referee.md",
+          "verdict": "minor_revision_then_submit",
+          "response_artifact": "problem-21-87/reviews/06-external-revision.md",
+          "revised_candidate": "dec0db6701228d2e9db8ec3065f4e0b1fdd98d38",
+          "reviewer_identity_status": "not_recorded",
+          "specialist_status": "not_verified",
+          "protocol_status": "independently_supplied_non_milestone"
+        }
       ],
       "supplemental_audits": [
         {

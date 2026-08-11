@@ -1,8 +1,9 @@
 # Problem 21.87 solution and review plan
 
 **Current stage:** Four required internal review rounds and one supplemental
-full re-audit complete; frozen candidate `ada5993f` publicly circulated;
-external specialist review outstanding.
+full re-audit complete; independently supplied minor-revision report answered
+in revised candidate `dec0db6`; verified external specialist review
+outstanding.
 **Generic protocol:**
 [`../docs/SOLUTION-REVIEW-WORKFLOW.md`](../docs/SOLUTION-REVIEW-WORKFLOW.md)
 
@@ -30,6 +31,19 @@ mutation audits in `reviews/05-supplemental-referee.md`.  This additional
 internal pass does not count as external specialist peer review.  The exact
 candidate is publicly available in the
 [GitHub referee repository](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/ada5993f83e2c5e19e91a8bf4669eb702de0e45f/problem-21-87).
+
+## Independently supplied referee report
+
+After public circulation, an independent report reviewed frozen candidate
+`ada5993f`, found no fatal mathematical gap, and issued a “minor revision,
+then submit” verdict.  The report is preserved in
+`reviews/06-external-referee.md`; all four requested publication edits are
+answered in `reviews/06-external-revision.md` and frozen at
+`dec0db6701228d2e9db8ec3065f4e0b1fdd98d38`.
+
+The repository does not record the reviewer's identity or specialist
+credentials.  The report therefore does not close the distinct external
+finite-group-specialist review requirement.
 
 ## Initial-solution instructions
 

@@ -26,7 +26,7 @@ required after the initial solution candidate.
 | **19.58** | Claimed complete solution; joint public proof-audit preprint with 19.57, release `v1.0.1` | ✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | Outstanding |
 | **19.54** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
 | **18.68** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
-| **21.87** | Claimed complete solution; [public referee candidate `ada5993f`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/ada5993f83e2c5e19e91a8bf4669eb702de0e45f/problem-21-87); four required internal passes plus a supplemental full re-audit complete | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ✅/✅ | Outstanding |
+| **21.87** | Claimed complete solution; [revised submission candidate `dec0db6`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/dec0db6701228d2e9db8ec3065f4e0b1fdd98d38/problem-21-87); independently supplied minor-revision report addressed after four required internal passes and a supplemental re-audit | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ✅/✅ | Outstanding |
 
 `†` Legacy completion is mapped retrospectively from the public repositories'
 commit, release, audit, and referee records. It means that an equivalent
@@ -50,6 +50,12 @@ Problem 21.87 also has a supplemental non-milestone review pair at
 `problem-21-87/reviews/05-supplemental-{revision,referee}.md`, completed on
 frozen corrected candidate `ada5993f`.  It does not alter the required
 four-round schema or the outstanding external-review boundary.
+
+An independently supplied report on `ada5993f` is preserved at
+`problem-21-87/reviews/06-external-referee.md`; its four minor items are
+answered in `06-external-revision.md` and frozen in revised candidate
+`dec0db6`.  Because the reviewer identity and specialist credentials are not
+recorded, this report does not close the external-specialist-review column.
 
 ## Legacy evidence
 

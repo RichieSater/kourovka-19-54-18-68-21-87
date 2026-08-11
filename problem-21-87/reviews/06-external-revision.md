@@ -3,12 +3,12 @@
 - **Base candidate:**
   `ada5993f83e2c5e19e91a8bf4669eb702de0e45f`
 - **Referee report:** `reviews/06-external-referee.md`
+- **Revision candidate:**
+  `dec0db6701228d2e9db8ec3065f4e0b1fdd98d38`
 - **Date:** 2026-08-11
 - **Scope:** attribution, one explicit Sylow-conjugacy transport, separation
   of manuscript and repository verification language, and author metadata
-- **Revision status:** all requested changes implemented; the validated
-  manuscript is to be frozen in a new candidate commit recorded in the
-  tracker
+- **Revision status:** all requested changes implemented and frozen
 
 ## Response matrix
 

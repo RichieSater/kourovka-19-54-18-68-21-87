@@ -27,7 +27,9 @@
 
 Problem 21.87 was active under a direct-user scheduling exception. Its claimed
 complete proof passed all four required internal referee rounds; the corrected
-candidate `ada5993f` also passed a supplemental full re-audit. External
-specialist review remains outstanding; the frozen candidate is now publicly
-available for that review. Problems 19.54 and 18.68 retain their pre-existing
-tracked states.
+candidate `ada5993f` also passed a supplemental full re-audit.  An
+independently supplied report found no fatal mathematical gap and requested
+four minor publication changes, all addressed in revised candidate
+`dec0db6`.  The reviewer identity and specialist status are not recorded, so
+verified external specialist review remains outstanding. Problems 19.54 and
+18.68 retain their pre-existing tracked states.
