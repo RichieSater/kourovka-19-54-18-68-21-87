@@ -59,8 +59,8 @@ p.~177]{kourovka21}.  Kov\'acs and Sim proved this for soluble groups
 $d+2$ bound \cite{Lucchini2000}.  We prove the sharp general bound.
 
 \begin{theorem}\label{thm:main}
-Let $d\geq 0$, let $G$ be a finite group, and suppose that $G$ has a nonempty
-family $\mathcal H$ of subgroups satisfying
+Let $d$ be a nonnegative integer, let $G$ be a finite group, and suppose that
+$G$ has a nonempty family $\mathcal H$ of subgroups satisfying
 \[
  d(H)\leq d\quad(H\in\mathcal H),
  \qquad
@@ -68,6 +68,10 @@ family $\mathcal H$ of subgroups satisfying
 \]
 Then $d(G)\leq d+1$.
 \end{theorem}
+
+The bound is best possible already when $d=1$.  Indeed, in $S_3$ the cyclic
+subgroups $H_2=\gen{(12)}$ and $H_3=\gen{(123)}$ have
+$\lvert S_3:H_2\rvert=3$ and $\lvert S_3:H_3\rvert=2$, while $d(S_3)=2$.
 
 The proof combines five published inputs.  Lucchini's augmentation-ideal
 bound localizes the only possible obstruction in positive presentation rank
