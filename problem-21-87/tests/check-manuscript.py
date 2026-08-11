@@ -100,7 +100,7 @@ def validate(manuscript: str, bibliography: str, rows: list[dict[str, str]]) -> 
         failures.append("required proof labels missing: " + ", ".join(missing_labels))
 
     lower = " ".join(manuscript.lower().split())
-    if "no exploratory computation is used as evidence" not in lower:
+    if "no computer calculation enters it" not in lower:
         failures.append("manuscript does not state the computational evidence boundary")
     if "external specialist" not in lower:
         failures.append("manuscript does not state the external-review boundary")

@@ -105,16 +105,17 @@ Choose an at-most-\(d\)-generated \(H\leq G\) containing a Sylow
  \qquad h_i=(h_{i1},\ldots,h_{ik})\in L_k.
 \]
 
-The coordinate tuples
-\(\mathbf h_j=(h_{1j},\ldots,h_{dj})\) lie in one fiber
-\(\Omega\subseteq L^d\) of size \(|A|^d\). They belong to distinct
+Let \(\rho:L^d\to(L/A)^d\) be the coordinatewise quotient map.  The
+coordinate tuples \(\mathbf h_j=(h_{1j},\ldots,h_{dj})\) lie in a common
+fiber \(\Omega\) of \(\rho\), of size \(|A|^d\). They belong to distinct
 \(\Gamma_{L,A}\)-orbits: a relation between coordinates \(r\neq s\) would
 hold for every element of \(H\), whereas \(T\cap A^k\) contains a
 nonidentity element supported only at \(r\).
 
-The stabilizer of \(\mathbf h_j\) fixes the \(j\)-th image of \(H\)
-pointwise. That image contains the Sylow \(2\)-subgroup obtained by
-projecting \(T\). By (2), every orbit has size at least
+Put \(H_j=\langle h_{1j},\ldots,h_{dj}\rangle\), the \(j\)-th coordinate
+image of \(H\), and let \(T_j\) be the corresponding image of \(T\).  The
+stabilizer of \(\mathbf h_j\) fixes \(H_j\) pointwise, and \(T_j\leq H_j\).
+By (2), every orbit has size at least
 \(2|\Gamma_{L,A}|/|A|\). Packing the \(k\) distinct orbits into \(\Omega\)
 gives
 
