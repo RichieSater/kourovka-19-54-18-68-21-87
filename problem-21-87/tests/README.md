@@ -8,12 +8,12 @@ certificate:
 python3 check-manuscript.py --self-test
 ```
 
-The checker verifies that every citation key is defined, all
-acceptance-critical sources are cited, required proof labels are present, and
-the source manifest has the required rows, schema, retrieval dates, HTTPS
-URLs, proof roles, access notes, and checksums where a public source file was
-available.  It also requires explicit computational-evidence and
-external-review boundaries in the manuscript.
+The checker verifies that every citation key is defined and unique, every
+bibliography entry is cited, all required sources are cited, required proof
+labels are present, and the source manifest has the required rows, schema,
+retrieval dates, HTTPS URLs, proof roles, access notes, and checksums where a
+public source file was available.  It also requires explicit
+computational-evidence and external-review boundaries in the manuscript.
 
 The self-test applies three negative controls and requires each to fail:
 

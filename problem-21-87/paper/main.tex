@@ -69,7 +69,7 @@ family $\mathcal H$ of subgroups satisfying
 Then $d(G)\leq d+1$.
 \end{theorem}
 
-The proof combines four published inputs.  Lucchini's augmentation-ideal
+The proof combines five published inputs.  Lucchini's augmentation-ideal
 bound localizes the only possible obstruction in positive presentation rank
 \cite[Theorem~2 and Proposition~2]{Lucchini1992}.  A result of Gruenberg
 eliminates soluble normal subgroups from a minimal counterexample
@@ -113,15 +113,18 @@ one.
 \end{proof}
 
 \begin{lemma}[Sylow coverage]\label{lem:sylow-coverage}
-For every prime $p$ dividing $\lvert G\rvert$, some $H\in\mathcal H$ contains
-a Sylow $p$-subgroup of $G$.
+The index gcd is one if and only if, for every prime $p$ dividing
+$\lvert G\rvert$, some $H\in\mathcal H$ contains a Sylow $p$-subgroup of
+$G$.
 \end{lemma}
 
 \begin{proof}
 There is an $H\in\mathcal H$ for which
 $p\nmid\lvert G:H\rvert$.  Thus the $p$-part of $\lvert H\rvert$ equals the
 $p$-part of $\lvert G\rvert$, so every Sylow $p$-subgroup of $H$ is a Sylow
-$p$-subgroup of $G$.
+$p$-subgroup of $G$.  Conversely, if the index gcd were greater than one,
+some prime $p\mid\lvert G\rvert$ would divide every index.  No member of
+$\mathcal H$ could then contain a Sylow $p$-subgroup of $G$.
 \end{proof}
 
 Because all indices divide $\lvert G\rvert$, the gcd of an arbitrary family
@@ -167,6 +170,9 @@ Moreover,
 where $\pr(G)$ is the presentation rank of $G$.
 \end{proposition}
 
+The first assertion is \cite[Theorem~2 and Proposition~2]{Lucchini1992}; the
+displayed identity is recorded on p.~146 of the same paper.
+
 For later use, we record the soluble-normal-subgroup consequence of
 Gruenberg's presentation-rank theory.
 
@@ -174,6 +180,9 @@ Gruenberg's presentation-rank theory.
 If $X$ is finite, $\pr(X)>0$, and $N\unlhd X$ is soluble, then
 $d(X)=d(X/N)$.
 \end{proposition}
+
+We use the formulation in \cite[2.1, p.~209]{Lucchini1990}, which cites
+\cite[p.~218]{Gruenberg1976}.
 
 We next fix the crown notation.  Let $L$ be a finite monolithic group with
 socle $A$.  When $A$ is abelian, assume that $A$ is complemented in $L$.
@@ -202,8 +211,8 @@ on its image generating $L/A$.
 We use the following two published results in exactly this form.
 
 \begin{proposition}[Critical crown formula]\label{prop:crown}
-Let $m\geq2$, and suppose that every proper quotient of a finite group $X$
-is $m$-generated while $X$ is not.  Then
+Let $m\geq2$, and suppose that $d(X/N)\leq m$ for every nontrivial normal
+subgroup $N$ of a finite group $X$, while $d(X)>m$.  Then
 $X\cong L_{f_L(m)}$ for a monolithic group $L$ as above.  If its socle $A$
 is nonabelian, then
 \begin{equation}\label{eq:crown-formula}
@@ -211,13 +220,15 @@ is nonabelian, then
 \end{equation}
 \end{proposition}
 
-In the notation of \cite[Theorem~2.7]{DallaVoltaLucchini1998}, the
-nonabelian-socle branch is
+This is \cite[Theorems~1.4 and 2.7]{DallaVoltaLucchini1998}, with the
+nonabelian branch of the latter normalized as follows.
+
+In the notation of that source, the nonabelian-socle branch is
 \[
  f_L(m)=1+\frac{\phi_L(m)}
  {|{\GammaLA}|\,\phi_{L/A}(m)}.
 \]
-Substitution of the preceding definition of \(P_{L,A}(m)\) gives
+Substitution of the preceding definition of $P_{L,A}(m)$ gives
 \eqref{eq:crown-formula}; thus no probabilistic normalization is implicit in
 the quoted formula.
 
@@ -227,6 +238,8 @@ If $L$ is a finite monolithic group with socle $A$ and $m\geq d(L)$, then
  P_{L,A}(m)\geq\frac12.
 \end{equation}
 \end{proposition}
+
+This is the main inequality of \cite{DetomiLucchini2013}.
 
 The notation in \cref{prop:crown} is chosen so that $f_L(m)$ is the first
 crown multiplicity at which more than $m$ generators are needed.  In
@@ -247,10 +260,10 @@ $P\in\Syl_2(S)$.  Then
 \end{lemma}
 
 \begin{proof}
-By Guralnick's theorem, there is an involution $t\in S$ such that
-$S=\gen{P,t}$.  Put $D=C_{\Aut(S)}(P)$.  The $S$-conjugacy class $t^S$ is
-$D$-invariant.  Indeed, $t$ is conjugate in $S$ to an involution $u\in P$;
-every element of $D$ fixes $u$, so it preserves $u^S=t^S$.
+By Guralnick's theorem \cite{Guralnick1986}, there is an involution $t\in S$
+such that $S=\gen{P,t}$.  Put $D=C_{\Aut(S)}(P)$.  The $S$-conjugacy class
+$t^S$ is $D$-invariant.  Indeed, $t$ is conjugate in $S$ to an involution
+$u\in P$; every element of $D$ fixes $u$, so it preserves $u^S=t^S$.
 
 The stabilizer $D_t$ is trivial: an element of $D_t$ fixes $P$ pointwise and
 fixes $t$, hence fixes the generating group $\gen{P,t}=S$ pointwise.  The
@@ -408,8 +421,8 @@ pinpoints, a claim ledger, and the internal review history accompany the
 source repository.  A fail-closed static checker verifies the bibliography,
 source manifest, proof labels, and three mutation controls.  The literature
 search recorded there found no earlier paper asserting this conclusion, but
-that search is not a claim of priority or a substitute for external
-specialist review.
+that search is not a claim of priority.  This manuscript has not undergone
+external specialist review; the internal checks are not a substitute for it.
 
 The author used OpenAI Codex for literature organization, proof stress-testing,
 and editorial assistance.  Responsibility for the mathematical claims and

@@ -24,6 +24,8 @@
 | 18.68 | scaffolded | not started | not started | not started | none |
 | 21.87 | proof-path sources audited | not used by proof | experimental pilot only | critical crown and orbit count complete | claimed complete proof draft |
 
-Problem 21.87 is active under a direct-user scheduling exception. Its initial
-solution candidate is frozen at commit `b3b07cc`; Revision 1 is next.
-Problems 19.54 and 18.68 retain their pre-existing states.
+Problem 21.87 is active under a direct-user scheduling exception. Its claimed
+complete proof draft has passed three internal referee rounds, and the
+hard-final Revision 4 is in progress. External specialist review remains
+outstanding. Problems 19.54 and 18.68 retain their pre-existing tracked
+states.

@@ -7,11 +7,12 @@ the 21st Kourovka Notebook:
 |---:|---:|---|---|
 | 1 | 19.54 | chief factors under the strictly-2-maximal condition | **not started** |
 | 2 | 18.68 | composition factors with complemented maximals | **not started** |
-| 3 | 21.87 | generation from subgroups of coprime-index gcd | **not started** |
+| 3 | 21.87 | generation from subgroups of coprime-index gcd | **claimed complete proof draft; hard-final review** |
 
-The repository currently contains **research scaffolding and an attack order
-only**. It does not claim a new theorem, a classification, a counterexample, or
-a solution to any of the three problems.
+The repository retains research scaffolding for Problems 19.54 and 18.68.
+For Problem 21.87 it contains a claimed complete affirmative proof draft,
+currently in the hard-final internal review round.  That result has not been
+externally reviewed, accepted, or published.
 
 ## Canonical statements
 
@@ -69,8 +70,9 @@ The setup reviewed these local repositories:
 Only architecture and candidate techniques are imported at this stage. No
 proof from those projects is automatically a proof here.
 
-## Setup boundary
+## Current boundary
 
-The initial setup task ends with the committed directory structure and attack
-order. Computational reconnaissance and proof development are intentionally
-deferred until a later work session.
+An explicit user request resumed Problem 21.87 outside the default attack
+order.  Its proof and review artifacts are isolated in `problem-21-87/` and
+tracked in the dashboard.  The committed states of Problems 19.54 and 18.68
+remain governed by the attack order; no result for either is claimed here.

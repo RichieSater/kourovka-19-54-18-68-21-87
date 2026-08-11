@@ -16,6 +16,12 @@
 | Conditional probability lower bound | Detomi--Lucchini 2013, official abstract/Padua record; Detomi 2013 slides, pp. 7--8 | \(m\geq d(L)\); at least \(1/2\), with stronger nonabelian-socle statement in slides | published input; CFSG-dependent |
 | Sylow \(2\)-subgroup plus involution | Guralnick 1986; explicitly restated in Burness--Guralnick 2024, Introduction, p. 1 | every finite nonabelian simple group | published input; CFSG-dependent |
 
+The text layer of the Dalla Volta--Lucchini PDF drops the horizontal bar from
+some inequality symbols.  The hypotheses (m\geq2) in Theorem 1.4 and
+(m\geq d(L)) in Theorem 2.7 were therefore checked visually on printed
+pp. 85 and 87, rather than inferred from OCR.  This includes the endpoint
+(m=2), needed when the problem parameter is (d=1).
+
 ## Source-access boundary
 
 The full Detomi--Lucchini 2013 version of record was access-restricted. Its

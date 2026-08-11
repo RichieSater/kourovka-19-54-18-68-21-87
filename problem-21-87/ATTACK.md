@@ -1,19 +1,22 @@
 # Attack record
 
 The user's request explicitly resumed this problem out of the default
-portfolio order. The proof-draft attack is complete; the review lifecycle is
-in progress.
+portfolio order. The proof-draft attack is complete; three internal referee
+passes are complete and the hard-final round is in progress.
 
 ## Deliverable A — reconstruct the two published proofs
 
-- Obtain Kovacs--Sim and Lucchini in full.
+- Obtain the primary papers in full where lawfully and publicly accessible;
+  record any access boundary and do not rely on an unavailable proof.
 - Normalize their notation and hypotheses.
 - Write a dependency map for the soluble \(d+1\) proof and the arbitrary
   \(d+2\) proof.
 - Identify one exact lemma or case responsible for the additional generator;
   do not begin a search based only on the abstracts.
 
-**Gate A: passed.** See `notes/04-source-audit.md`.
+**Gate A: passed with the disclosed access boundary.** The full Lucchini 2000
+paper was unavailable and is used only for historical context; no proof step
+depends on it. See `notes/04-source-audit.md`.
 
 ## Deliverable B — arithmetic and quotient kernel
 

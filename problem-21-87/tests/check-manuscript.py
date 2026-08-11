@@ -63,7 +63,15 @@ def parse_sources(text: str) -> list[dict[str, str]]:
 def validate(manuscript: str, bibliography: str, rows: list[dict[str, str]]) -> list[str]:
     failures: list[str] = []
 
-    bib_keys = set(BIB_RE.findall(bibliography))
+    bib_key_list = BIB_RE.findall(bibliography)
+    bib_keys = set(bib_key_list)
+    duplicate_bib_keys = sorted(
+        {key for key in bib_key_list if bib_key_list.count(key) > 1}
+    )
+    if duplicate_bib_keys:
+        failures.append(
+            "duplicate bibliography keys: " + ", ".join(duplicate_bib_keys)
+        )
     cited: set[str] = set()
     for group in CITE_RE.findall(manuscript):
         cited.update(key.strip() for key in group.split(","))
@@ -71,10 +79,13 @@ def validate(manuscript: str, bibliography: str, rows: list[dict[str, str]]) -> 
     missing_bib = sorted(cited - bib_keys)
     if missing_bib:
         failures.append("undefined bibliography keys: " + ", ".join(missing_bib))
+    unused_bib = sorted(bib_keys - cited)
+    if unused_bib:
+        failures.append("uncited bibliography keys: " + ", ".join(unused_bib))
     missing_citations = sorted(REQUIRED_CITATIONS - cited)
     if missing_citations:
         failures.append(
-            "acceptance-critical sources not cited: " + ", ".join(missing_citations)
+            "required sources not cited: " + ", ".join(missing_citations)
         )
 
     labels = set(re.findall(r"\\label\{([^}]+)\}", manuscript))
