@@ -26,7 +26,7 @@ required after the initial solution candidate.
 | **19.58** | Claimed complete solution; joint public proof-audit preprint with 19.57, release `v1.0.1` | ✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | Outstanding |
 | **19.54** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
 | **18.68** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
-| **21.87** | Claimed complete solution; four required internal passes plus a supplemental full re-audit complete | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ✅/✅ | Outstanding |
+| **21.87** | Claimed complete solution; [public referee candidate `ada5993f`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/ada5993f83e2c5e19e91a8bf4669eb702de0e45f/problem-21-87); four required internal passes plus a supplemental full re-audit complete | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ✅/✅ | Outstanding |
 
 `†` Legacy completion is mapped retrospectively from the public repositories'
 commit, release, audit, and referee records. It means that an equivalent

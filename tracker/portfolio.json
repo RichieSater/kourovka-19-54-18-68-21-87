@@ -263,9 +263,12 @@
       "workstream": "problem-21-87",
       "local_repository": ".",
       "mathematical_status": "claimed_complete_solution",
-      "publication_status": "none",
+      "publication_status": "public_referee_candidate",
       "external_specialist_review": "outstanding",
-      "public_artifacts": [],
+      "public_artifacts": [
+        "https://github.com/RichieSater/kourovka-19-54-18-68-21-87",
+        "https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/ada5993f83e2c5e19e91a8bf4669eb702de0e45f/problem-21-87"
+      ],
       "supplemental_audits": [
         {
           "date": "2026-08-11",

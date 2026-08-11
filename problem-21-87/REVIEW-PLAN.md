@@ -1,7 +1,8 @@
 # Problem 21.87 solution and review plan
 
 **Current stage:** Four required internal review rounds and one supplemental
-full re-audit complete; external specialist review outstanding.
+full re-audit complete; frozen candidate `ada5993f` publicly circulated;
+external specialist review outstanding.
 **Generic protocol:**
 [`../docs/SOLUTION-REVIEW-WORKFLOW.md`](../docs/SOLUTION-REVIEW-WORKFLOW.md)
 
@@ -26,7 +27,9 @@ preflight and a complete re-audit outside the required nine-stage milestone
 schema.  Three P3 corrections were frozen at `ada5993f`; the exact candidate
 then passed the proof, source, convention, literature, build, rendering, and
 mutation audits in `reviews/05-supplemental-referee.md`.  This additional
-internal pass does not count as external specialist peer review.
+internal pass does not count as external specialist peer review.  The exact
+candidate is publicly available in the
+[GitHub referee repository](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/ada5993f83e2c5e19e91a8bf4669eb702de0e45f/problem-21-87).
 
 ## Initial-solution instructions
 

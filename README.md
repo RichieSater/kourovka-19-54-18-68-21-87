@@ -12,8 +12,10 @@ the 21st Kourovka Notebook:
 The repository retains research scaffolding for Problems 19.54 and 18.68.
 For Problem 21.87 it contains a claimed complete affirmative proof that has
 passed the repository's four required internal review rounds and a
-supplemental full re-audit.  That result has not been externally reviewed,
-accepted, or published.
+supplemental full re-audit.  The
+[frozen proof candidate `ada5993f`](https://github.com/RichieSater/kourovka-19-54-18-68-21-87/tree/ada5993f83e2c5e19e91a8bf4669eb702de0e45f/problem-21-87)
+is publicly available for external referee review.  That result has not been
+externally reviewed, accepted, or formally published.
 
 ## Canonical statements
 

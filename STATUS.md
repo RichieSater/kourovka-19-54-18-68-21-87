@@ -14,7 +14,8 @@
 - [x] Portfolio tracker includes 10.34, 18.68, 19.54, 19.57, 19.58, and 21.87.
 - [x] Legacy 10.34 and 19.57/19.58 histories mapped without claiming external
       peer review.
-- [ ] No remote repository has been created.
+- [x] [Public GitHub referee repository](https://github.com/RichieSater/kourovka-19-54-18-68-21-87)
+      created.
 
 ## Mathematical work
 
@@ -27,5 +28,6 @@
 Problem 21.87 was active under a direct-user scheduling exception. Its claimed
 complete proof passed all four required internal referee rounds; the corrected
 candidate `ada5993f` also passed a supplemental full re-audit. External
-specialist review remains outstanding. Problems 19.54 and 18.68 retain their
-pre-existing tracked states.
+specialist review remains outstanding; the frozen candidate is now publicly
+available for that review. Problems 19.54 and 18.68 retain their pre-existing
+tracked states.
