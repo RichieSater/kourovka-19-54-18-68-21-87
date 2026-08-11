@@ -262,7 +262,7 @@
       "problem": "21.87",
       "workstream": "problem-21-87",
       "local_repository": ".",
-      "mathematical_status": "claimed_complete_solution_draft",
+      "mathematical_status": "claimed_complete_solution",
       "publication_status": "none",
       "external_specialist_review": "outstanding",
       "public_artifacts": [],
@@ -300,8 +300,8 @@
           "evidence": "commit 9c92e55278b045e8667264e8fbb40b74fa6a8ed1; problem-21-87/reviews/04-revision.md"
         },
         "referee_4": {
-          "status": "not_started",
-          "evidence": "problem-21-87/REVIEW-PLAN.md"
+          "status": "complete",
+          "evidence": "problem-21-87/reviews/04-referee.md; circulate-for-external-review recommendation on frozen candidate 9c92e55278b045e8667264e8fbb40b74fa6a8ed1"
         }
       }
     }

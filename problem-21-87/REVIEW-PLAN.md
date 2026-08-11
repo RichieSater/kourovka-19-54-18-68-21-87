@@ -1,6 +1,7 @@
 # Problem 21.87 solution and review plan
 
-**Current stage:** Revision 4 complete; Referee 4 not started.
+**Current stage:** Four internal review rounds complete; external specialist
+review outstanding.
 **Generic protocol:**
 [`../docs/SOLUTION-REVIEW-WORKFLOW.md`](../docs/SOLUTION-REVIEW-WORKFLOW.md)
 
@@ -16,7 +17,7 @@
 | Revision 3 | complete | Certified subgroup families and \(d(G)\) lower bounds | `reviews/03-revision.md`; `8ba6bc2` |
 | Referee 3 | complete | Fresh-clone enumeration and mutation audit | `reviews/03-referee.md`; pass on `8ba6bc2` |
 | Revision 4 | complete | Exact one-generator-gap closeout and release candidate | `reviews/04-revision.md`; `9c92e55` |
-| Referee 4 | not started | Hard-final theorem/source/certificate pass | `reviews/04-referee.md` |
+| Referee 4 | complete | Hard-final theorem/source/certificate pass | `reviews/04-referee.md`; circulate recommendation on `9c92e55` |
 
 ## Initial-solution instructions
 

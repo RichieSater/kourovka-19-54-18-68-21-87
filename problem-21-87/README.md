@@ -1,8 +1,8 @@
 # Problem 21.87 — generation from coprime-index data
 
 **Priority:** 3
-**State:** claimed complete proof draft; hard-final release candidate frozen;
-Referee 4 and external specialist review outstanding.
+**State:** claimed complete solution; four internal referee passes complete;
+external specialist review outstanding.
 
 The candidate manuscript proves that Lucchini's general \(d+2\) generator
 bound sharpens to \(d+1\) under the same gcd-of-indices hypothesis. The proof

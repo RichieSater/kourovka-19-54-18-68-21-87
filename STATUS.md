@@ -22,10 +22,9 @@
 |---|---|---|---|---|---|
 | 19.54 | scaffolded | not started | not started | not started | none |
 | 18.68 | scaffolded | not started | not started | not started | none |
-| 21.87 | proof-path sources audited | not used by proof | experimental pilot only | critical crown and orbit count complete | claimed complete proof draft |
+| 21.87 | proof-path sources audited | not used by proof | experimental pilot only | critical crown and orbit count complete | claimed complete solution |
 
-Problem 21.87 is active under a direct-user scheduling exception. Its claimed
-complete proof draft has passed three internal referee rounds, and the
-hard-final Revision 4 candidate is frozen at commit `9c92e55`. Referee 4 is
-next; external specialist review remains outstanding. Problems 19.54 and
-18.68 retain their pre-existing tracked states.
+Problem 21.87 was active under a direct-user scheduling exception. Its claimed
+complete proof at release-candidate commit `9c92e55` has passed all four
+internal referee rounds. External specialist review remains outstanding.
+Problems 19.54 and 18.68 retain their pre-existing tracked states.

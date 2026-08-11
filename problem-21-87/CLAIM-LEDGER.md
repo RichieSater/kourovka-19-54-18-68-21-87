@@ -19,6 +19,6 @@ published theorems are not reproved.
 | 21.87-L1 | \(\lvert C_{\operatorname{Aut}(S)}(P)\rvert\leq |S|/2\) for \(P\in\operatorname{Syl}_2(S)\). | **proved modulo P5** | manuscript, Lemma 3.1 |
 | 21.87-L2 | \(\lvert C_{\Gamma_{L,A}}(R)\rvert\leq |A|/2\) for a nonabelian monolithic socle and \(R\in\operatorname{Syl}_2(L)\). | **proved modulo L1** | manuscript, Lemma 3.2 |
 | 21.87-L3 | The coordinate tuples supplied by a \(d\)-generated subgroup containing a Sylow \(2\)-subgroup occupy distinct \(\Gamma_{L,A}\)-orbits. | **proved** | manuscript, Section 4 |
-| 21.87-C1 | Every finite group under the hypothesis is \((d+1)\)-generated. | **proved modulo published inputs**; internal/external review outstanding | manuscript, Theorem 1.1 |
+| 21.87-C1 | Every finite group under the hypothesis is \((d+1)\)-generated. | **proved modulo published inputs**; four internal passes complete; external review outstanding | manuscript, Theorem 1.1 |
 | 21.87-X1 | No finite computation is used by C1. | **proved by dependency inspection** | manuscript; initial-solution report |
 | 21.87-O1 | No earlier solution was found in the dated search. | **search reconnaissance**, not a novelty/open-status claim | notes/03-literature-search-2026-08-11.md |

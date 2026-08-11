@@ -1,8 +1,8 @@
 # Attack record
 
 The user's request explicitly resumed this problem out of the default
-portfolio order. The proof-draft attack and three internal referee passes are
-complete; the hard-final revision is frozen and Referee 4 is pending.
+portfolio order. The proof-draft attack and all four internal referee passes
+are complete. External specialist review is the next evidence boundary.
 
 ## Deliverable A — reconstruct the two published proofs
 

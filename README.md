@@ -7,12 +7,12 @@ the 21st Kourovka Notebook:
 |---:|---:|---|---|
 | 1 | 19.54 | chief factors under the strictly-2-maximal condition | **not started** |
 | 2 | 18.68 | composition factors with complemented maximals | **not started** |
-| 3 | 21.87 | generation from subgroups of coprime-index gcd | **claimed complete proof draft; hard-final review** |
+| 3 | 21.87 | generation from subgroups of coprime-index gcd | **claimed complete solution; four internal passes** |
 
 The repository retains research scaffolding for Problems 19.54 and 18.68.
-For Problem 21.87 it contains a claimed complete affirmative proof draft,
-currently in the hard-final internal review round.  That result has not been
-externally reviewed, accepted, or published.
+For Problem 21.87 it contains a claimed complete affirmative proof that has
+passed the repository's four internal review rounds.  That result has not
+been externally reviewed, accepted, or published.
 
 ## Canonical statements
 
