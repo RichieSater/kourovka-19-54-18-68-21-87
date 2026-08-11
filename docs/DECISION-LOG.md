@@ -36,3 +36,18 @@ as part of the scaffold-only task.
 **Reasoning:** the user requested repository structure and an attack order,
 not publication of an unfinished research program. Remote visibility can be
 chosen explicitly later.
+
+## 2026-08-11 — solution and review lifecycle
+
+**Decision:** every open problem must produce an initial complete solution
+candidate and then pass four explicit revision/referee pairs: structural,
+classification/source, computational/reproducibility, and hard-final.
+
+**Reasoning:** the prior projects improved materially under repeated
+adversarial and clean-room review. A fixed lifecycle makes those gates visible
+before a result is circulated and prevents a successful computation or one
+favorable pass from being treated as external validation.
+
+Problems 10.34, 19.57, and 19.58 are included as retrospectively mapped legacy
+projects. Their public artifacts are preprints/research releases; external
+specialist peer review remains a separate outstanding status.

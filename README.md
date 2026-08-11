@@ -29,12 +29,15 @@ Kourovka Notebook. Exact provenance is recorded in
 
 ## Start here
 
-1. Read [`ATTACK-ORDER.md`](ATTACK-ORDER.md) for the sequencing and gates.
-2. Read [`docs/PREVIOUS-WORK-AUDIT.md`](docs/PREVIOUS-WORK-AUDIT.md) for the
+1. Read [`TRACKER.md`](TRACKER.md) for portfolio status and the nine required
+   solution/review milestones.
+2. Read [`ATTACK-ORDER.md`](ATTACK-ORDER.md) for the sequencing and gates.
+3. Read [`docs/PREVIOUS-WORK-AUDIT.md`](docs/PREVIOUS-WORK-AUDIT.md) for the
    reusable material from the earlier group-theory projects.
-3. Enter the selected problem directory and read `PROBLEM.md`, `ATTACK.md`,
-   and `CLAIM-LEDGER.md` before adding code or mathematical claims.
-4. Run `make check` after structural edits.
+4. Enter the selected problem directory and read `PROBLEM.md`, `ATTACK.md`,
+   `REVIEW-PLAN.md`, and `CLAIM-LEDGER.md` before adding code or mathematical
+   claims.
+5. Run `make check` after structural or tracker edits.
 
 ## Layout
 
@@ -45,6 +48,8 @@ problem-21-87/       coprime-index families and generator bounds
 shared/              infrastructure that is genuinely property-independent
 docs/                provenance, prior-work audit, and research protocol
 scripts/             repository-level validation only
+tracker/             machine-readable portfolio state and legacy mappings
+templates/           initial-solution, revision, and referee report forms
 ```
 
 Each problem owns its own `gap/`, `tests/`, `data/`, `notes/`, and

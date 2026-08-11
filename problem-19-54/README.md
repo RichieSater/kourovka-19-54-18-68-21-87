@@ -11,9 +11,10 @@ geometry, not merely maximal-subgroup orders or character tables.
 1. [`PROBLEM.md`](PROBLEM.md) — exact statement, terminology, and published
    footholds.
 2. [`ATTACK.md`](ATTACK.md) — deliverables and proof/search gates.
-3. [`CLAIM-LEDGER.md`](CLAIM-LEDGER.md) — every candidate input and its current
+3. [`REVIEW-PLAN.md`](REVIEW-PLAN.md) — initial solution and four review rounds.
+4. [`CLAIM-LEDGER.md`](CLAIM-LEDGER.md) — every candidate input and its current
    evidence level.
-4. [`references/README.md`](references/README.md) — source acquisition list.
+5. [`references/README.md`](references/README.md) — source acquisition list.
 
 No GAP source or generated data belongs here until the terminology tests and
 finite-search contract in `ATTACK.md` are satisfied.

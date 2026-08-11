@@ -12,5 +12,6 @@ certificate format.
 
 1. [`PROBLEM.md`](PROBLEM.md)
 2. [`ATTACK.md`](ATTACK.md)
-3. [`CLAIM-LEDGER.md`](CLAIM-LEDGER.md)
-4. [`references/README.md`](references/README.md)
+3. [`REVIEW-PLAN.md`](REVIEW-PLAN.md)
+4. [`CLAIM-LEDGER.md`](CLAIM-LEDGER.md)
+5. [`references/README.md`](references/README.md)

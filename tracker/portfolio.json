@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-08-11",
+  "milestone_order": [
+    "initial_solution",
+    "revision_1",
+    "referee_1",
+    "revision_2",
+    "referee_2",
+    "revision_3",
+    "referee_3",
+    "revision_4",
+    "referee_4"
+  ],
+  "projects": [
+    {
+      "problem": "10.34",
+      "workstream": "kourovka-10-34",
+      "local_repository": "../kourovka-10-34",
+      "mathematical_status": "claimed_complete_solution",
+      "publication_status": "public_preprint",
+      "external_specialist_review": "outstanding",
+      "public_artifacts": [
+        "https://arxiv.org/abs/2608.02970",
+        "https://github.com/RichieSater/kourovka-10-34/releases/tag/v1.0.8",
+        "https://doi.org/10.5281/zenodo.21709124"
+      ],
+      "milestones": {
+        "initial_solution": {
+          "status": "complete_legacy",
+          "evidence": "commit 98eb1a2; paper and GAP certificates"
+        },
+        "revision_1": {
+          "status": "complete_legacy",
+          "evidence": "commit 2a23897; v1.0.1 audit fixes"
+        },
+        "referee_1": {
+          "status": "complete_legacy",
+          "evidence": "commit 6dd8c5e; final adversarial-pass fixes"
+        },
+        "revision_2": {
+          "status": "complete_legacy",
+          "evidence": "commits 770399c and 2b2d5a5; adversarial fixes and formal/audit tranche"
+        },
+        "referee_2": {
+          "status": "complete_legacy",
+          "evidence": "commit c9da1c; proof-audit, literature, and clean-room gates closed"
+        },
+        "revision_3": {
+          "status": "complete_legacy",
+          "evidence": "commit 393f70f; audit-driven manuscript and bundle revision"
+        },
+        "referee_3": {
+          "status": "complete_legacy",
+          "evidence": "commit d6b51c8; private clean-room assurance attestation"
+        },
+        "revision_4": {
+          "status": "complete_legacy",
+          "evidence": "commits 5cf0b27 and 6f61a7c; reproducibility and second-reviewer English revisions"
+        },
+        "referee_4": {
+          "status": "complete_legacy",
+          "evidence": "release v1.0.8 at commit 35942dc; current verification and review boundary"
+        }
+      }
+    },
+    {
+      "problem": "19.57",
+      "workstream": "kourovka-19-57-19-58",
+      "local_repository": "../kourovka-19-57-19-58",
+      "mathematical_status": "claimed_complete_solution",
+      "publication_status": "public_proof_audit_preprint",
+      "external_specialist_review": "outstanding",
+      "public_artifacts": [
+        "https://github.com/RichieSater/kourovka-19-57-19-58/releases/tag/v1.0.1",
+        "https://doi.org/10.5281/zenodo.21890122"
+      ],
+      "milestones": {
+        "initial_solution": {
+          "status": "complete_legacy",
+          "evidence": "commit 9056ff6; complete Lie-type proof-audit draft"
+        },
+        "revision_1": {
+          "status": "complete_legacy",
+          "evidence": "full classification and proof-obligation expansion through notes/11-proof-obligations.md"
+        },
+        "referee_1": {
+          "status": "complete_legacy",
+          "evidence": "notes/12-referee-report.md; major-revision verdict"
+        },
+        "revision_2": {
+          "status": "complete_legacy",
+          "evidence": "notes/13-unitary-ppd-row-audit.md and notes/14-major-revision-response.md"
+        },
+        "referee_2": {
+          "status": "complete_legacy",
+          "evidence": "notes/15-second-referee-report.md; pass with minor corrections"
+        },
+        "revision_3": {
+          "status": "complete_legacy",
+          "evidence": "commit efd66de; second-pass corrections and v1.0.0 preparation"
+        },
+        "referee_3": {
+          "status": "complete_legacy",
+          "evidence": "v1.0.0 clean release and theorem/source consistency checks"
+        },
+        "revision_4": {
+          "status": "complete_legacy",
+          "evidence": "commit 51ee961; hard-final source and certificate audit"
+        },
+        "referee_4": {
+          "status": "complete_legacy",
+          "evidence": "notes/16-hard-final-referee-pass.md and release v1.0.1"
+        }
+      }
+    },
+    {
+      "problem": "19.58",
+      "workstream": "kourovka-19-57-19-58",
+      "local_repository": "../kourovka-19-57-19-58",
+      "mathematical_status": "claimed_complete_solution",
+      "publication_status": "public_proof_audit_preprint",
+      "external_specialist_review": "outstanding",
+      "public_artifacts": [
+        "https://github.com/RichieSater/kourovka-19-57-19-58/releases/tag/v1.0.1",
+        "https://doi.org/10.5281/zenodo.21890122"
+      ],
+      "milestones": {
+        "initial_solution": {
+          "status": "complete_legacy",
+          "evidence": "commit 9056ff6; complete Lie-type proof-audit draft"
+        },
+        "revision_1": {
+          "status": "complete_legacy",
+          "evidence": "full classification and proof-obligation expansion through notes/11-proof-obligations.md"
+        },
+        "referee_1": {
+          "status": "complete_legacy",
+          "evidence": "notes/12-referee-report.md; major-revision verdict"
+        },
+        "revision_2": {
+          "status": "complete_legacy",
+          "evidence": "notes/13-unitary-ppd-row-audit.md and notes/14-major-revision-response.md"
+        },
+        "referee_2": {
+          "status": "complete_legacy",
+          "evidence": "notes/15-second-referee-report.md; pass with minor corrections"
+        },
+        "revision_3": {
+          "status": "complete_legacy",
+          "evidence": "commit efd66de; second-pass corrections and v1.0.0 preparation"
+        },
+        "referee_3": {
+          "status": "complete_legacy",
+          "evidence": "v1.0.0 clean release and theorem/source consistency checks"
+        },
+        "revision_4": {
+          "status": "complete_legacy",
+          "evidence": "commit 51ee961; hard-final source and certificate audit"
+        },
+        "referee_4": {
+          "status": "complete_legacy",
+          "evidence": "notes/16-hard-final-referee-pass.md and release v1.0.1"
+        }
+      }
+    },
+    {
+      "problem": "19.54",
+      "workstream": "problem-19-54",
+      "local_repository": ".",
+      "mathematical_status": "open_target_scaffolded",
+      "publication_status": "none",
+      "external_specialist_review": "not_applicable",
+      "public_artifacts": [],
+      "milestones": {
+        "initial_solution": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        },
+        "revision_1": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        },
+        "referee_1": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        },
+        "revision_2": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        },
+        "referee_2": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        },
+        "revision_3": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        },
+        "referee_3": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        },
+        "revision_4": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        },
+        "referee_4": {
+          "status": "not_started",
+          "evidence": "problem-19-54/REVIEW-PLAN.md"
+        }
+      }
+    },
+    {
+      "problem": "18.68",
+      "workstream": "problem-18-68",
+      "local_repository": ".",
+      "mathematical_status": "open_target_scaffolded",
+      "publication_status": "none",
+      "external_specialist_review": "not_applicable",
+      "public_artifacts": [],
+      "milestones": {
+        "initial_solution": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        },
+        "revision_1": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        },
+        "referee_1": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        },
+        "revision_2": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        },
+        "referee_2": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        },
+        "revision_3": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        },
+        "referee_3": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        },
+        "revision_4": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        },
+        "referee_4": {
+          "status": "not_started",
+          "evidence": "problem-18-68/REVIEW-PLAN.md"
+        }
+      }
+    },
+    {
+      "problem": "21.87",
+      "workstream": "problem-21-87",
+      "local_repository": ".",
+      "mathematical_status": "open_target_scaffolded",
+      "publication_status": "none",
+      "external_specialist_review": "not_applicable",
+      "public_artifacts": [],
+      "milestones": {
+        "initial_solution": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        },
+        "revision_1": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        },
+        "referee_1": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        },
+        "revision_2": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        },
+        "referee_2": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        },
+        "revision_3": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        },
+        "referee_3": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        },
+        "revision_4": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        },
+        "referee_4": {
+          "status": "not_started",
+          "evidence": "problem-21-87/REVIEW-PLAN.md"
+        }
+      }
+    }
+  ]
+}

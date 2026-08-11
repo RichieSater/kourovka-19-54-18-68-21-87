@@ -10,6 +10,10 @@
 - [x] Canonical problem statements checked against the July 2026 Notebook.
 - [x] Ten-query literature reconnaissance logged.
 - [x] Cross-project attack order and evidence gates documented.
+- [x] Initial-solution plus four-round revision/referee lifecycle documented.
+- [x] Portfolio tracker includes 10.34, 18.68, 19.54, 19.57, 19.58, and 21.87.
+- [x] Legacy 10.34 and 19.57/19.58 histories mapped without claiming external
+      peer review.
 - [ ] No remote repository has been created.
 
 ## Mathematical work

@@ -9,6 +9,16 @@ The initial setup is complete. Do not begin computational reconnaissance or
 proof development until a later explicit task resumes the attack order in
 `ATTACK-ORDER.md`.
 
+## Milestone tracking
+
+- Follow `docs/SOLUTION-REVIEW-WORKFLOW.md`: one initial solution candidate,
+  then four revision/referee pairs.
+- Update `tracker/portfolio.json`, `TRACKER.md`, and the problem's
+  `REVIEW-PLAN.md` together.
+- Freeze the exact candidate commit before every referee pass.
+- Preserve referee reports historically; answer them in a new revision file.
+- Internal passes never count as external specialist peer review.
+
 ## Rigor
 
 1. Label statements as **proved**, **published input**, **computationally
