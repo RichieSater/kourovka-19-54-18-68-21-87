@@ -1,7 +1,7 @@
 # Revision 2 — classification and source audit
 
 - **Base candidate:** 671b5c45d2bed165a9efb8ec58167b0c8f834fdd
-- **Revision candidate:** pending freeze
+- **Revision candidate:** `ec734ae960cfe1b408b625f6ecf05e738c793d40`
 - **Date:** 2026-08-11
 - **Scope:** crown theorem scope, probability normalization, exhaustive socle
   branches, CFSG dependence, bibliographic identity, and priority boundary
