@@ -7,12 +7,13 @@ The machine-readable retrieval and checksum manifest is
 The proof path uses:
 
 1. Lucchini 1992 for the augmentation-ideal bound;
-2. Gruenberg 1976, in the exact form printed by Lucchini 1990, for soluble
+2. Roggenkamp 1979 for the presentation-rank identity;
+3. Gruenberg 1976, in the exact form printed by Lucchini 1990, for soluble
    normal subgroups at positive presentation rank;
-3. Dalla Volta--Lucchini 1998 for critical crown-based powers and their exact
+4. Dalla Volta--Lucchini 1998 for critical crown-based powers and their exact
    multiplicity;
-4. Detomi--Lucchini 2013 for the uniform conditional probability bound; and
-5. Guralnick 1986 for generation of a simple group by a Sylow \(2\)-subgroup
+5. Detomi--Lucchini 2013 for the uniform conditional probability bound; and
+6. Guralnick 1986 for generation of a simple group by a Sylow \(2\)-subgroup
    and an involution, with its exact formulation corroborated by the public
    Burness--Guralnick paper.
 

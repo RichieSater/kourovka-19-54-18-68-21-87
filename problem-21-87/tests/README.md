@@ -15,6 +15,9 @@ retrieval dates, HTTPS URLs, proof roles, access notes, and checksums where a
 public source file was available.  It also requires explicit
 computational-evidence and external-review boundaries in the manuscript.
 
+The repository-facing checksum, theorem-pinpoint, and mutation-control detail
+is kept here and in the source audit rather than in the journal manuscript.
+
 The self-test applies three negative controls and requires each to fail:
 
 1. an undefined citation key;

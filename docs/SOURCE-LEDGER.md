@@ -75,18 +75,23 @@ before they are used in a proof.
    Univ. Padova* 88 (1992), 145--149,
    [Numdam PDF](https://www.numdam.org/item/RSMUP_1992__88__145_0.pdf).
    Published input: \(d_G(I_G)\leq d+1\).
-4. F. Dalla Volta and A. Lucchini, "Finite groups that need more generators
+4. K. W. Roggenkamp, "Integral representations and presentations of finite
+   groups," in *Integral Representations*, Lecture Notes in Mathematics 744,
+   Springer, 1979, 145--275,
+   [DOI 10.1007/BFb0063060](https://doi.org/10.1007/BFb0063060).
+   Published input: \(d(G)=d_G(I_G)+\operatorname{pr}(G)\), Theorem 2.1.
+5. F. Dalla Volta and A. Lucchini, "Finite groups that need more generators
    than any proper quotient," *J. Austral. Math. Soc. Ser. A* 64 (1998),
    82--91,
    [DOI 10.1017/S1446788700001312](https://doi.org/10.1017/S1446788700001312).
    Published input: critical crown reduction and exact multiplicity formula.
-5. E. Detomi and A. Lucchini, "Probabilistic generation of finite groups
+6. E. Detomi and A. Lucchini, "Probabilistic generation of finite groups
    with a unique minimal normal subgroups," *J. Lond. Math. Soc.* 87 (2013),
    689--706,
    [official repository record](https://www.research.unipd.it/handle/11577/2528913),
    [DOI 10.1112/jlms/jds076](https://doi.org/10.1112/jlms/jds076).
    Published input: \(P_{L,A}(m)\geq1/2\) for \(m\geq d(L)\).
-6. R. M. Guralnick, "Generation of simple groups," *J. Algebra* 103 (1986),
+7. R. M. Guralnick, "Generation of simple groups," *J. Algebra* 103 (1986),
    381--401,
    [DOI 10.1016/0021-8693(86)90194-8](https://doi.org/10.1016/0021-8693(86)90194-8).
    Published input: generation by a Sylow \(2\)-subgroup and an involution.

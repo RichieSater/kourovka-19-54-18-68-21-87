@@ -12,6 +12,7 @@ published theorems are not reproved.
 | 21.87-A1 | The gcd hypothesis is equivalent to prime-by-prime Sylow coverage by at-most-\(d\)-generated subgroups. | **proved** | manuscript, Lemma 2.2 |
 | 21.87-I1 | The hypothesis passes to quotients without increasing \(d\). | **proved** | manuscript, Lemma 2.1 |
 | 21.87-P1 | The hypothesis implies \(d_G(I_G)\leq d+1\). | **published input** | Lucchini 1992, Theorem 2 and Proposition 2 |
+| 21.87-P1R | \(d(G)=d_G(I_G)+\operatorname{pr}(G)\) for every finite group \(G\). | **published input** | Roggenkamp 1979, Theorem 2.1 |
 | 21.87-P2 | At positive presentation rank, quotienting by a soluble normal subgroup preserves \(d(G)\). | **published input** | Gruenberg 1976; Lucchini 1990, 2.1 |
 | 21.87-P3 | A minimal non-\(m\)-generated group with all proper quotients \(m\)-generated is a critical crown-based power, with the stated exact formula. | **published input**, CFSG-dependent | Dalla Volta--Lucchini 1998, Theorems 1.4 and 2.7 |
 | 21.87-P4 | \(P_{L,A}(m)\geq1/2\) for \(m\geq d(L)\). | **published input**, CFSG-dependent | Detomi--Lucchini 2013 official abstract and slides |
@@ -19,7 +20,7 @@ published theorems are not reproved.
 | 21.87-L1 | \(\lvert C_{\operatorname{Aut}(S)}(P)\rvert\leq |S|/2\) for \(P\in\operatorname{Syl}_2(S)\). | **proved modulo P5** | manuscript, Lemma 3.1 |
 | 21.87-L2 | \(\lvert C_{\Gamma_{L,A}}(R)\rvert\leq |A|/2\) for a nonabelian monolithic socle and \(R\in\operatorname{Syl}_2(L)\). | **proved modulo L1** | manuscript, Lemma 3.2 |
 | 21.87-L3 | The coordinate tuples supplied by a \(d\)-generated subgroup containing a Sylow \(2\)-subgroup occupy distinct \(\Gamma_{L,A}\)-orbits. | **proved** | manuscript, Section 4 |
-| 21.87-C1 | Every finite group under the hypothesis is \((d+1)\)-generated. | **proved modulo published inputs**; four required internal passes and one supplemental full re-audit complete; external review outstanding | manuscript, Theorem 1.1 |
+| 21.87-C1 | Every finite group under the hypothesis is \((d+1)\)-generated. | **proved modulo published inputs**; four required internal passes, one supplemental full re-audit, and one independently supplied minor-revision report complete; external specialist review outstanding | manuscript, Theorem 1.1 |
 | 21.87-S1 | The \(d+1\) bound is best possible in general. | **proved** by the \(S_3\) witness | manuscript, after Theorem 1.1 |
 | 21.87-X1 | No finite computation is used by C1. | **proved by dependency inspection** | manuscript; initial-solution report |
 | 21.87-O1 | No earlier solution was found in the dated search. | **search reconnaissance**, not a novelty/open-status claim | notes/03-literature-search-2026-08-11.md |

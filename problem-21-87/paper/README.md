@@ -14,3 +14,17 @@ The proof is prose-only and uses no computer calculation. The PDF is a build
 artifact and is not committed; reviewers should regenerate it from the source.
 The wrapper requires Tectonic 0.17.0, rejects LaTeX diagnostics, and confirms
 that the generated PDF has a readable, nonzero page count.
+
+## Repository verification
+
+The manuscript intentionally keeps repository mechanics out of its main
+text.  Supporting records are maintained separately:
+
+- source URLs, access notes, and checksums are in
+  [`../references/SOURCES.csv`](../references/SOURCES.csv);
+- theorem pinpoints and access boundaries are in
+  [`../notes/04-source-audit.md`](../notes/04-source-audit.md);
+- claim classifications are in
+  [`../CLAIM-LEDGER.md`](../CLAIM-LEDGER.md); and
+- `python3 ../tests/check-manuscript.py --self-test` checks bibliography and
+  manifest consistency, required proof labels, and three mutation controls.

@@ -24,6 +24,9 @@
 
 \title[Subgroups of coprime index]{Generation of finite groups from subgroups of coprime index}
 \author{Richie Sater}
+\address{Independent Researcher, United States}
+\email{richiesater@gmail.com}
+\urladdr{https://orcid.org/0009-0007-9051-8207}
 \date{August 11, 2026}
 \subjclass[2020]{20D10, 20D30, 20P05}
 \keywords{finite group, generators, crown-based power, probabilistic generation, presentation rank}
@@ -73,10 +76,12 @@ The bound is best possible already when $d=1$.  Indeed, in $S_3$ the cyclic
 subgroups $H_2=\gen{(12)}$ and $H_3=\gen{(123)}$ have
 $\lvert S_3:H_2\rvert=3$ and $\lvert S_3:H_3\rvert=2$, while $d(S_3)=2$.
 
-The proof combines five published inputs.  Lucchini's augmentation-ideal
-bound localizes the only possible obstruction in positive presentation rank
-\cite[Theorem~2 and Proposition~2]{Lucchini1992}.  A result of Gruenberg
-eliminates soluble normal subgroups from a minimal counterexample
+The proof combines six published inputs.  Lucchini's augmentation-ideal
+bound gives the required module-generator estimate
+\cite[Theorem~2 and Proposition~2]{Lucchini1992}.  Roggenkamp's
+presentation-rank identity then localizes the only possible obstruction in
+positive presentation rank \cite[Theorem~2.1]{Roggenkamp1979}.  A result of
+Gruenberg eliminates soluble normal subgroups from a minimal counterexample
 \cite[p.~218]{Gruenberg1976}; we use the explicit formulation in
 \cite[2.1, p.~209]{Lucchini1990}.  Dalla Volta and Lucchini identify a group
 which needs more generators than all its proper quotients as a critical
@@ -167,15 +172,21 @@ Under the hypotheses of \cref{thm:main},
 \[
  d_G(I_G)\leq d+1.
 \]
-Moreover,
-\[
- d(G)=d_G(I_G)+\pr(G),
-\]
-where $\pr(G)$ is the presentation rank of $G$.
 \end{proposition}
 
-The first assertion is \cite[Theorem~2 and Proposition~2]{Lucchini1992}; the
-displayed identity is recorded on p.~146 of the same paper.
+This is \cite[Theorem~2 and Proposition~2]{Lucchini1992}.
+
+\begin{proposition}[Roggenkamp]\label{prop:presentation-rank}
+For every finite group $X$,
+\[
+ d(X)=d_X(I_X)+\pr(X),
+\]
+where $\pr(X)$ is the presentation rank of $X$.
+\end{proposition}
+
+Roggenkamp proves this in \cite[Theorem~2.1]{Roggenkamp1979}.
+Lucchini also records the identity, with attribution to Roggenkamp, in
+\cite[p.~146]{Lucchini1992}.
 
 For later use, we record the soluble-normal-subgroup consequence of
 Gruenberg's presentation-rank theory.
@@ -264,8 +275,11 @@ $P\in\Syl_2(S)$.  Then
 \end{lemma}
 
 \begin{proof}
-By Guralnick's theorem \cite{Guralnick1986}, there is an involution $t\in S$
-such that $S=\gen{P,t}$.  Put $D=C_{\Aut(S)}(P)$.  The $S$-conjugacy class
+By Guralnick's theorem \cite{Guralnick1986}, there are
+$P_0\in\Syl_2(S)$ and an involution $t_0\in S$ such that
+$S=\gen{P_0,t_0}$.  Sylow conjugacy gives $s\in S$ with $P_0^s=P$;
+after conjugating the generating pair and setting $t=t_0^s$, we have
+$S=\gen{P,t}$.  Put $D=C_{\Aut(S)}(P)$.  The $S$-conjugacy class
 $t^S$ is $D$-invariant.  Indeed, $t$ is conjugate in $S$ to an involution
 $u\in P$; every element of $D$ fixes $u$, so it preserves $u^S=t^S$.
 
@@ -329,9 +343,10 @@ hypothesis with the same $d$.  Minimality gives
 \end{equation}
 whereas $d(G)>m$.
 
-By \cref{prop:augmentation}, $d_G(I_G)\leq m$.  The presentation-rank
-identity implies $\pr(G)>0$.  If $G$ had a nontrivial soluble normal subgroup
-$N$, then \cref{prop:pr} and \eqref{eq:proper-quotients} would give
+By \cref{prop:augmentation}, $d_G(I_G)\leq m$, so
+\cref{prop:presentation-rank} implies $\pr(G)>0$.  If $G$ had a nontrivial
+soluble normal subgroup $N$, then \cref{prop:pr} and
+\eqref{eq:proper-quotients} would give
 $d(G)=d(G/N)\leq m$, a contradiction.  Thus
 \begin{equation}\label{eq:no-soluble-normal}
  G\text{ has no nontrivial soluble normal subgroup.}
@@ -417,16 +432,14 @@ factor in the orbit count.  The additional $1$ in the exact critical-crown
 formula rules out equality.
 \end{remark}
 
-\section*{Verification and disclosure}
+\section*{Dependencies and disclosure}
 
-The argument is entirely deductive from the published results cited above;
-no exploratory computation is used as evidence.  Source checksums, theorem
-pinpoints, a claim ledger, and the internal review history accompany the
-source repository.  A fail-closed static checker verifies the bibliography,
-source manifest, proof labels, and three mutation controls.  The literature
-search recorded there found no earlier paper asserting this conclusion, but
-that search is not a claim of priority.  This manuscript has not undergone
-external specialist review; the internal checks are not a substitute for it.
+The proof is entirely deductive from the published results cited above.  No
+exploratory computation is used as evidence.  The cited results on critical
+crowns, conditional generation, and generation of simple groups depend on
+the classification of finite simple groups.  A dated literature search found
+no earlier paper asserting this conclusion, but that search is not a claim
+of priority.  This manuscript has not undergone external specialist review.
 
 The author used OpenAI Codex for literature organization, proof stress-testing,
 and editorial assistance.  Responsibility for the mathematical claims and

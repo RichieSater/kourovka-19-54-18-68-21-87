@@ -9,7 +9,7 @@
 | The problem and prior \(d+1\)/\(d+2\) bounds | 21st Notebook, printed p. 177, Problem 21.87 | exact wording, proposer, citations | published input |
 | Soluble \(d+1\) baseline | Kovacs--Sim 1991, Theorem 2, pp. 231--232 | at-most-\(d\)-generated subgroups; indices with no common divisor | published input |
 | \(d_G(I_G)\leq d+1\) | Lucchini 1992, Theorem 2 and Proposition 2, pp. 145, 148 | arbitrary finite groups; one subgroup of \(p'\)-index for each \(p\) | published input |
-| Presentation-rank identity | Lucchini 1992, p. 146; Lucchini 1990, p. 202 | \(d(G)=d_G(I_G)+\operatorname{pr}(G)\) | published input |
+| Presentation-rank identity | Roggenkamp 1979, Theorem 2.1; attributed explicitly on Lucchini 1992, p. 146 | \(d(G)=d_G(I_G)+\operatorname{pr}(G)\) | published input |
 | Soluble normal subgroup at positive presentation rank | Lucchini 1990, item 2.1, p. 209, citing Gruenberg 1976, p. 218 | if \(N\unlhd G\) is soluble and \(\operatorname{pr}(G)>0\), then \(d(G)=d(G/N)\) | published input |
 | Critical crown reduction | Dalla Volta--Lucchini 1998, Theorem 1.4, p. 85 | \(m\geq2\); every nontrivial quotient \(m\)-generated; group not \(m\)-generated | published input; CFSG-dependent |
 | Exact nonabelian crown formula | Dalla Volta--Lucchini 1998, Theorem 2.7, pp. 87--88 | \(m\geq d(L)\); automorphisms acting trivially on \(L/A\) | published input |
@@ -33,6 +33,11 @@ published input and does not claim an independent audit of its CFSG casework.
 The full Lucchini 2000 article was also not openly accessible. It is cited
 only for the historical \(d+2\) baseline already recorded by the current
 Notebook; no step of the new proof depends on its proof.
+
+The full Roggenkamp 1979 chapter was access-restricted.  The official Springer
+record confirms the chapter identity, pages, and DOI.  Lucchini 1992, p. 146,
+explicitly attributes the displayed presentation-rank identity to
+Roggenkamp's chapter, and later literature identifies it as Theorem 2.1.
 
 ## Interpretation checks
 

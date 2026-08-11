@@ -33,6 +33,7 @@ REQUIRED_CITATIONS = {
     "Lucchini1990",
     "Lucchini1992",
     "Lucchini2000",
+    "Roggenkamp1979",
 }
 REQUIRED_LABELS = {
     "thm:main",
@@ -48,12 +49,17 @@ REQUIRED_SOURCES = {
     "notebook-21",
     "lucchini-1990",
     "lucchini-1992",
+    "roggenkamp-1979",
     "dalla-volta-lucchini-1998",
     "detomi-lucchini-2013",
     "guralnick-1986",
     "burness-guralnick-2024",
 }
-ALLOWED_BLANK_HASHES = {"detomi-lucchini-2013", "guralnick-1986"}
+ALLOWED_BLANK_HASHES = {
+    "detomi-lucchini-2013",
+    "guralnick-1986",
+    "roggenkamp-1979",
+}
 
 
 def parse_sources(text: str) -> list[dict[str, str]]:
