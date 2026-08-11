@@ -1,7 +1,7 @@
 # Revision 4 — hard-final release-candidate audit
 
 - **Base candidate:** 8ba6bc2bc3eaa02ebfb201a1e2e7cd2a8356d192
-- **Revision candidate:** pending freeze
+- **Revision candidate:** `9c92e55278b045e8667264e8fbb40b74fa6a8ed1`
 - **Date:** 2026-08-11
 - **Scope:** theorem-by-theorem consistency, notation, bibliography, status
   language, source integrity, PDF rendering, and release readiness

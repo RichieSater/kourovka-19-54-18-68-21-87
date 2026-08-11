@@ -26,6 +26,6 @@
 
 Problem 21.87 is active under a direct-user scheduling exception. Its claimed
 complete proof draft has passed three internal referee rounds, and the
-hard-final Revision 4 is in progress. External specialist review remains
-outstanding. Problems 19.54 and 18.68 retain their pre-existing tracked
-states.
+hard-final Revision 4 candidate is frozen at commit `9c92e55`. Referee 4 is
+next; external specialist review remains outstanding. Problems 19.54 and
+18.68 retain their pre-existing tracked states.

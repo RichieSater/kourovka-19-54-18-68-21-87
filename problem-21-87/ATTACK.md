@@ -1,8 +1,8 @@
 # Attack record
 
 The user's request explicitly resumed this problem out of the default
-portfolio order. The proof-draft attack is complete; three internal referee
-passes are complete and the hard-final round is in progress.
+portfolio order. The proof-draft attack and three internal referee passes are
+complete; the hard-final revision is frozen and Referee 4 is pending.
 
 ## Deliverable A — reconstruct the two published proofs
 
