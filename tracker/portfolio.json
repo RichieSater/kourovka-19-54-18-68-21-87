@@ -272,8 +272,8 @@
           "evidence": "commit b3b07ccf0c4517cdd2aece4364f906c948e238f5; problem-21-87/reviews/00-initial-solution.md"
         },
         "revision_1": {
-          "status": "not_started",
-          "evidence": "problem-21-87/REVIEW-PLAN.md"
+          "status": "in_progress",
+          "evidence": "problem-21-87/reviews/01-revision.md; freeze pending"
         },
         "referee_1": {
           "status": "not_started",

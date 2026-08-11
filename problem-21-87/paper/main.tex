@@ -126,7 +126,26 @@ $p$-subgroup of $G$.
 
 Because all indices divide $\lvert G\rvert$, the gcd of an arbitrary family
 of indices is already attained by a finite subfamily.  Thus no issue of an
-infinite gcd is hidden in the statement.
+infinite gcd is hidden in the statement, and the published augmentation-ideal
+theorem may be applied to such a finite subfamily.
+
+\begin{lemma}[Sylow transport]\label{lem:sylow-transport}
+Let $P\in\Syl_p(X)$.
+\begin{enumerate}
+\item If $N\unlhd X$, then $P\cap N\in\Syl_p(N)$.
+\item If $\pi:X\to Y$ is surjective, then $\pi(P)\in\Syl_p(Y)$.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+The first assertion is the standard normal-subgroup part of the Sylow
+theorems.  Applying it to $\ker\pi$ gives
+\[
+ |\pi(P)|=\frac{|P|}{|P\cap\ker\pi|}
+          =\frac{|X|_p}{|\ker\pi|_p}=|Y|_p,
+\]
+which proves the second assertion.
+\end{proof}
 
 \subsection{Augmentation ideals and critical crowns}
 
@@ -273,9 +292,10 @@ element supported in $P_i$ would be moved to a different support.  By
 If $d=0$, every member of $\mathcal H$ is trivial.  The gcd condition then
 forces $|G|=1$, so assume $d\geq1$ and put $m=d+1\geq2$.
 
-Suppose, for a contradiction, that the theorem is false, and choose a
-counterexample $G$ of least order.  By \cref{lem:quotient}, every proper
-quotient of $G$ satisfies the same hypothesis.  Minimality gives
+Suppose, for a contradiction, that the theorem is false.  For this fixed
+value of $d$, choose a counterexample $G$ of least order.  By
+\cref{lem:quotient}, every proper quotient of $G$ satisfies the same
+hypothesis with the same $d$.  Minimality gives
 \begin{equation}\label{eq:proper-quotients}
  d(G/N)\leq m
  \qquad(1\neq N\unlhd G),
@@ -331,16 +351,18 @@ $\alpha\in\GammaLA$ such that
  h_{is}=\alpha(h_{ir})\qquad(1\leq i\leq d).
 \]
 It follows by evaluating words in the generators that every $h\in H$
-satisfies $h_s=\alpha(h_r)$.  But
-$T\cap A^k$ is a Sylow $2$-subgroup of $A^k$, hence is a direct product of
-$k$ nontrivial Sylow $2$-subgroups, one in each coordinate.  Since
+satisfies $h_s=\alpha(h_r)$.  But, by
+\cref{lem:sylow-transport}, $T\cap A^k$ is a Sylow $2$-subgroup of $A^k$,
+hence is a direct product of $k$ nontrivial Sylow $2$-subgroups, one in each
+coordinate.  Since
 $T\leq H$, the group $H$ contains an element of $T\cap A^k$ supported only
 in coordinate $r$.  The displayed relation would send its nonidentity
 $r$-coordinate to its identity $s$-coordinate, which is impossible.  This
 proves the claim.
 
 Let $T_j$ denote the image of $T$ under the $j$th coordinate projection
-$L_k\to L$.  This projection is surjective, so $T_j\in\Syl_2(L)$.  The
+$L_k\to L$.  This projection is surjective, so
+\cref{lem:sylow-transport} gives $T_j\in\Syl_2(L)$.  The
 stabilizer of $\mathbf h_j$ in $\GammaLA$ fixes
 $\gen{h_{1j},\ldots,h_{dj}}$ pointwise.  This subgroup contains $T_j$ because
 $T\leq H$.  By \cref{lem:monolithic-centralizer},
