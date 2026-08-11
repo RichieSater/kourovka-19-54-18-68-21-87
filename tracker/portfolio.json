@@ -292,8 +292,8 @@
           "evidence": "commit 8ba6bc2bc3eaa02ebfb201a1e2e7cd2a8356d192; problem-21-87/reviews/03-revision.md"
         },
         "referee_3": {
-          "status": "not_started",
-          "evidence": "problem-21-87/REVIEW-PLAN.md"
+          "status": "complete",
+          "evidence": "problem-21-87/reviews/03-referee.md; pass on frozen candidate 8ba6bc2bc3eaa02ebfb201a1e2e7cd2a8356d192"
         },
         "revision_4": {
           "status": "not_started",

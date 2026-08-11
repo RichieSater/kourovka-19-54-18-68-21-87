@@ -26,7 +26,7 @@ required after the initial solution candidate.
 | **19.58** | Claimed complete solution; joint public proof-audit preprint with 19.57, release `v1.0.1` | ✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | Outstanding |
 | **19.54** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
 | **18.68** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
-| **21.87** | Claimed complete solution draft; Revision 3 frozen | ✅ | ✅/✅ | ✅/✅ | ✅/⬜ | ⬜/⬜ | Outstanding |
+| **21.87** | Claimed complete solution draft; Referee 3 pass | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ⬜/⬜ | Outstanding |
 
 `†` Legacy completion is mapped retrospectively from the public repositories'
 commit, release, audit, and referee records. It means that an equivalent
