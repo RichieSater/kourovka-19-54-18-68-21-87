@@ -1,6 +1,6 @@
 # Problem 21.87 solution and review plan
 
-**Current stage:** Revision 1 in progress; revised candidate freeze pending.
+**Current stage:** Revision 1 complete and frozen; Referee 1 not started.
 **Generic protocol:**
 [`../docs/SOLUTION-REVIEW-WORKFLOW.md`](../docs/SOLUTION-REVIEW-WORKFLOW.md)
 
@@ -9,7 +9,7 @@
 | Milestone | Status | Required focus | Artifact |
 |---|---|---|---|
 | Initial solution | complete | Exact \(d+1\) proof or explicit counterexample | `reviews/00-initial-solution.md`; `b3b07cc` |
-| Revision 1 | in progress | Published-proof reconstruction, gcd/Sylow and quotient kernel | `reviews/01-revision.md`; freeze pending |
+| Revision 1 | complete | Published-proof reconstruction, gcd/Sylow and quotient kernel | `reviews/01-revision.md`; `671b5c4` |
 | Referee 1 | not started | Independent logical and generator-bound audit | `reviews/01-referee.md` |
 | Revision 2 | not started | Primitive, monolithic, and crown-based-power completeness | `reviews/02-revision.md` |
 | Referee 2 | not started | Independent generation-theory/source audit | `reviews/02-referee.md` |

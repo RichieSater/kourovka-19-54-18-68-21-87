@@ -1,7 +1,7 @@
 # Revision 1 — logical and structural audit
 
 - **Base candidate:** \(b3b07ccf0c4517cdd2aece4364f906c948e238f5\)
-- **Revision candidate:** pending freeze
+- **Revision candidate:** `671b5c4f` (full hash recorded in the tracker)
 - **Date:** 2026-08-11
 - **Scope:** definitions, quantifiers, quotients, Sylow transport, minimality,
   and the coordinate-orbit argument
