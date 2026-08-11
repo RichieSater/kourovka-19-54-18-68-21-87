@@ -1,7 +1,7 @@
 # Problem 21.87 solution and review plan
 
-**Current stage:** Four internal review rounds complete; external specialist
-review outstanding.
+**Current stage:** Four required internal review rounds and one supplemental
+full re-audit complete; external specialist review outstanding.
 **Generic protocol:**
 [`../docs/SOLUTION-REVIEW-WORKFLOW.md`](../docs/SOLUTION-REVIEW-WORKFLOW.md)
 
@@ -18,6 +18,15 @@ review outstanding.
 | Referee 3 | complete | Fresh-clone enumeration and mutation audit | `reviews/03-referee.md`; pass on `8ba6bc2` |
 | Revision 4 | complete | Exact one-generator-gap closeout and release candidate | `reviews/04-revision.md`; `9c92e55` |
 | Referee 4 | complete | Hard-final theorem/source/certificate pass | `reviews/04-referee.md`; circulate recommendation on `9c92e55` |
+
+## Supplemental post-protocol audit
+
+A direct request for a further full referee pass triggered an editorial
+preflight and a complete re-audit outside the required nine-stage milestone
+schema.  Three P3 corrections were frozen at `ada5993f`; the exact candidate
+then passed the proof, source, convention, literature, build, rendering, and
+mutation audits in `reviews/05-supplemental-referee.md`.  This additional
+internal pass does not count as external specialist peer review.
 
 ## Initial-solution instructions
 

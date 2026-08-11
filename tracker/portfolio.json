@@ -266,6 +266,17 @@
       "publication_status": "none",
       "external_specialist_review": "outstanding",
       "public_artifacts": [],
+      "supplemental_audits": [
+        {
+          "date": "2026-08-11",
+          "candidate": "ada5993f83e2c5e19e91a8bf4669eb702de0e45f",
+          "revision_artifact": "problem-21-87/reviews/05-supplemental-revision.md",
+          "referee_artifact": "problem-21-87/reviews/05-supplemental-referee.md",
+          "verdict": "pass",
+          "recommendation": "circulate_for_external_specialist_review",
+          "protocol_status": "supplemental_non_milestone"
+        }
+      ],
       "milestones": {
         "initial_solution": {
           "status": "complete",

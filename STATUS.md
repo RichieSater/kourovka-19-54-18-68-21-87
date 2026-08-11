@@ -25,6 +25,7 @@
 | 21.87 | proof-path sources audited | not used by proof | experimental pilot only | critical crown and orbit count complete | claimed complete solution |
 
 Problem 21.87 was active under a direct-user scheduling exception. Its claimed
-complete proof at release-candidate commit `9c92e55` has passed all four
-internal referee rounds. External specialist review remains outstanding.
-Problems 19.54 and 18.68 retain their pre-existing tracked states.
+complete proof passed all four required internal referee rounds; the corrected
+candidate `ada5993f` also passed a supplemental full re-audit. External
+specialist review remains outstanding. Problems 19.54 and 18.68 retain their
+pre-existing tracked states.

@@ -16,3 +16,9 @@ tracker, and `tracker/portfolio.json` in the same milestone commit.
 
 These are internal adversarial audits. They never count as external
 specialist peer review.
+
+After the required four rounds were complete, a direct request for another
+full pass produced the supplemental, non-milestone pair
+`05-supplemental-revision.md` and `05-supplemental-referee.md`.  The referee
+reviewed the frozen corrected candidate `ada5993f` and again recommended
+circulation for external specialist review.

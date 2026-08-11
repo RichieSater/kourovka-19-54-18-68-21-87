@@ -2,7 +2,8 @@
 
 - **Base release candidate:**
   `9c92e55278b045e8667264e8fbb40b74fa6a8ed1`
-- **Corrected candidate:** pending freeze
+- **Corrected candidate:**
+  `ada5993f83e2c5e19e91a8bf4669eb702de0e45f`
 - **Date:** 2026-08-11
 - **Scope:** editorial precision and bibliographic fidelity only
 - **Protocol status:** supplemental; not a fifth required revision round

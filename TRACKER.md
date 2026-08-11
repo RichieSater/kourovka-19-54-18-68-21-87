@@ -26,7 +26,7 @@ required after the initial solution candidate.
 | **19.58** | Claimed complete solution; joint public proof-audit preprint with 19.57, release `v1.0.1` | ✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | Outstanding |
 | **19.54** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
 | **18.68** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
-| **21.87** | Claimed complete solution; four internal passes complete | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ✅/✅ | Outstanding |
+| **21.87** | Claimed complete solution; four required internal passes plus a supplemental full re-audit complete | ✅ | ✅/✅ | ✅/✅ | ✅/✅ | ✅/✅ | Outstanding |
 
 `†` Legacy completion is mapped retrospectively from the public repositories'
 commit, release, audit, and referee records. It means that an equivalent
@@ -45,6 +45,11 @@ decision log.
 
 The direct user request of 2026-08-11 is the scheduling exception activating
 Problem 21.87 before the two earlier portfolio targets.
+
+Problem 21.87 also has a supplemental non-milestone review pair at
+`problem-21-87/reviews/05-supplemental-{revision,referee}.md`, completed on
+frozen corrected candidate `ada5993f`.  It does not alter the required
+four-round schema or the outstanding external-review boundary.
 
 ## Legacy evidence
 

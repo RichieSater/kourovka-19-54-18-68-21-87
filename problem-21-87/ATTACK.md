@@ -1,8 +1,9 @@
 # Attack record
 
 The user's request explicitly resumed this problem out of the default
-portfolio order. The proof-draft attack and all four internal referee passes
-are complete. External specialist review is the next evidence boundary.
+portfolio order. The proof-draft attack, all four required internal referee
+passes, and a supplemental full re-audit are complete. External specialist
+review is the next evidence boundary.
 
 ## Deliverable A — reconstruct the two published proofs
 
