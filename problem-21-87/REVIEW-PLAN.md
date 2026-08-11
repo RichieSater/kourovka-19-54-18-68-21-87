@@ -1,6 +1,6 @@
 # Problem 21.87 solution and review plan
 
-**Current stage:** initial solution not started.
+**Current stage:** initial solution candidate in progress; freeze pending.
 **Generic protocol:**
 [`../docs/SOLUTION-REVIEW-WORKFLOW.md`](../docs/SOLUTION-REVIEW-WORKFLOW.md)
 
@@ -8,7 +8,7 @@
 
 | Milestone | Status | Required focus | Artifact |
 |---|---|---|---|
-| Initial solution | not started | Exact \(d+1\) proof or explicit counterexample | `reviews/00-initial-solution.md` |
+| Initial solution | in progress | Exact \(d+1\) proof or explicit counterexample | `reviews/00-initial-solution.md`; freeze hash pending |
 | Revision 1 | not started | Published-proof reconstruction, gcd/Sylow and quotient kernel | `reviews/01-revision.md` |
 | Referee 1 | not started | Independent logical and generator-bound audit | `reviews/01-referee.md` |
 | Revision 2 | not started | Primitive, monolithic, and crown-based-power completeness | `reviews/02-revision.md` |
@@ -26,6 +26,10 @@ close that step or give a verified counterexample. It must keep the same
 parameter \(d\) through all quotients and crowns, prove the gcd/Sylow
 reformulation, and distinguish an actual generator lower bound from a failed
 search for a smaller generating set.
+
+The manuscript supplies a complete affirmative proof without using the
+exploratory computation. The initial candidate must be committed and its exact
+hash recorded before Revision 1 begins.
 
 ## Four review rounds
 

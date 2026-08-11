@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail-closed validation for the scaffold-only repository state."""
+"""Fail-closed validation for repository structure and status reporting."""
 
 from __future__ import annotations
 
@@ -111,13 +111,13 @@ def validate_attack_order(failures: list[str]) -> None:
         fail("ATTACK-ORDER.md does not list the intended order", failures)
 
 
-def validate_scaffold_status(failures: list[str]) -> None:
+def validate_status_table(failures: list[str]) -> None:
     status = (ROOT / "STATUS.md").read_text(encoding="utf-8").lower()
     for problem in ("19.54", "18.68", "21.87"):
         if problem not in status:
             fail(f"STATUS.md does not mention Problem {problem}", failures)
-    if "claimed result |\n|---" not in status or "| none |" not in status:
-        fail("STATUS.md must retain an explicit no-claimed-result table", failures)
+    if "claimed result |\n|---" not in status:
+        fail("STATUS.md must retain an explicit claimed-result column", failures)
 
 
 def main() -> int:
@@ -125,7 +125,7 @@ def main() -> int:
     validate_expected_files(failures)
     validate_links(failures)
     validate_attack_order(failures)
-    validate_scaffold_status(failures)
+    validate_status_table(failures)
 
     if failures:
         print("STRUCTURE CHECK FAILED", file=sys.stderr)

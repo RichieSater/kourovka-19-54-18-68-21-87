@@ -26,7 +26,7 @@ required after the initial solution candidate.
 | **19.58** | Claimed complete solution; joint public proof-audit preprint with 19.57, release `v1.0.1` | ✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | ✅†/✅† | Outstanding |
 | **19.54** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
 | **18.68** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
-| **21.87** | Open target; scaffold only | ⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Not applicable yet |
+| **21.87** | Claimed complete solution draft; freeze pending | 🟡 | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | ⬜/⬜ | Outstanding |
 
 `†` Legacy completion is mapped retrospectively from the public repositories'
 commit, release, audit, and referee records. It means that an equivalent
@@ -42,6 +42,9 @@ used the exact filenames or order in the new protocol.
 Only one open problem should have `initial_solution` or a revision marked
 `in_progress` at a time unless a written scheduling exception is added to the
 decision log.
+
+The direct user request of 2026-08-11 is the scheduling exception activating
+Problem 21.87 before the two earlier portfolio targets.
 
 ## Legacy evidence
 

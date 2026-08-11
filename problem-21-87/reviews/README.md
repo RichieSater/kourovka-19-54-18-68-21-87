@@ -1,7 +1,7 @@
 # Review artifacts
 
-No review artifact exists yet. Create files only when the corresponding
-candidate is frozen, using the templates in `../../templates/`:
+The initial candidate and four sequential internal revision/referee pairs use
+the required names:
 
 ```text
 00-initial-solution.md
@@ -13,3 +13,6 @@ candidate is frozen, using the templates in `../../templates/`:
 
 Reports are historical and append-only. Update `REVIEW-PLAN.md`, the root
 tracker, and `tracker/portfolio.json` in the same milestone commit.
+
+These are internal adversarial audits. They never count as external
+specialist peer review.

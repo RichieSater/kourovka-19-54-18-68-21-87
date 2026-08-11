@@ -9,12 +9,12 @@
 Source: 21st Kourovka Notebook, PDF/printed page 177. See the root source
 ledger for the retrieved-file hash.
 
-## Notation to freeze from the primary papers
+## Frozen terminology and notation
 
 - \(d(G)\): the minimum size of a generating set of \(G\).
-- A `d-generator subgroup`: provisionally, a subgroup \(H\) with
-  \(d(H)\leq d\). The Kovacs--Sim and Lucchini papers must be checked for their
-  exact convention before this becomes fixed terminology.
+- A `d-generator subgroup`: a subgroup \(H\) with \(d(H)\leq d\). This is the
+  convention in the primary proofs; a shorter generating tuple may be padded
+  with identities.
 - The hypothesis: there is a family \(\mathcal H\) of such subgroups with
   \[
   \gcd\{\lvert G:H\rvert:H\in\mathcal H\}=1.
@@ -31,23 +31,23 @@ formal setup is written.
 
 Thus the problem is a sharp one-generator gap in the nonsoluble case.
 
-## Candidate reformulation to prove, not assume
+## Proved reformulation
 
-The gcd condition suggests a prime-by-prime formulation: for each prime
-\(p\mid |G|\), some \(d\)-generated \(H\leq G\) has
+The gcd condition is equivalent to the following prime-by-prime statement:
+for each prime \(p\mid |G|\), some at-most-\(d\)-generated \(H\leq G\) has
 \(p\nmid \lvert G:H\rvert\), equivalently \(H\) contains a Sylow \(p\)-subgroup of
-\(G\). The arithmetic equivalence and the Sylow statement are planned first
-lemmas; they have not yet been entered as proved claims.
+\(G\). This is proved in the manuscript.
 
-## Structural questions
+## Answer in the candidate manuscript
 
-- Does the full hypothesis pass to quotients with the same \(d\)?
-- Can a minimal counterexample be assumed to have a unique minimal normal
-  subgroup?
-- Is the extra generator in Lucchini's proof spent on an almost-simple
-  quotient, a nonabelian direct-power socle, or crown multiplicity?
-- Can a counterexample be detected among primitive groups or crown-based
-  powers?
-- For \(d=1\) or \(d=2\), what do bounded finite searches already force?
+- **Claimed theorem:** the answer is affirmative: \(d(G)\leq d+1\).
+- The hypothesis passes to quotients with the same \(d\).
+- A least counterexample would have positive presentation rank and no
+  nontrivial soluble normal subgroup.
+- The critical-crown theorem would make it a crown-based power with
+  nonabelian socle.
+- Exact lower and upper counts for the crown multiplicity contradict one
+  another.
 
-All of these are currently **unchecked** in this repository.
+The complete proof is [`paper/main.tex`](paper/main.tex). It is a claimed
+complete solution at proof-draft level, not an externally established result.

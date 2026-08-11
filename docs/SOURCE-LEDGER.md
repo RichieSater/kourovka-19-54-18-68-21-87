@@ -71,9 +71,30 @@ before they are used in a proof.
    [DOI 10.1080/00927870008826932](https://doi.org/10.1080/00927870008826932).
    Published input quoted by the Notebook: the arbitrary finite-group
    \(d+2\) bound.
+3. A. Lucchini, "Generating the augmentation ideal," *Rend. Sem. Mat.
+   Univ. Padova* 88 (1992), 145--149,
+   [Numdam PDF](https://www.numdam.org/item/RSMUP_1992__88__145_0.pdf).
+   Published input: \(d_G(I_G)\leq d+1\).
+4. F. Dalla Volta and A. Lucchini, "Finite groups that need more generators
+   than any proper quotient," *J. Austral. Math. Soc. Ser. A* 64 (1998),
+   82--91,
+   [DOI 10.1017/S1446788700001312](https://doi.org/10.1017/S1446788700001312).
+   Published input: critical crown reduction and exact multiplicity formula.
+5. E. Detomi and A. Lucchini, "Probabilistic generation of finite groups
+   with a unique minimal normal subgroups," *J. Lond. Math. Soc.* 87 (2013),
+   689--706,
+   [official repository record](https://www.research.unipd.it/handle/11577/2528913),
+   [DOI 10.1112/jlms/jds076](https://doi.org/10.1112/jlms/jds076).
+   Published input: \(P_{L,A}(m)\geq1/2\) for \(m\geq d(L)\).
+6. R. M. Guralnick, "Generation of simple groups," *J. Algebra* 103 (1986),
+   381--401,
+   [DOI 10.1016/0021-8693(86)90194-8](https://doi.org/10.1016/0021-8693(86)90194-8).
+   Published input: generation by a Sylow \(2\)-subgroup and an involution.
 
-Both papers must be obtained in full before Stage 3A. Search snippets are not
-an acceptable substitute for their proofs.
+The proof-path retrieval hashes and access boundaries are recorded in
+`problem-21-87/references/SOURCES.csv`. The full Lucchini 2000 article was
+not openly accessible, but the new proof does not invoke it; it is used only
+for the historical baseline recorded by the current Notebook.
 
 ## Local prior-work sources
 

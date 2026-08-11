@@ -22,7 +22,9 @@
 |---|---|---|---|---|---|
 | 19.54 | scaffolded | not started | not started | not started | none |
 | 18.68 | scaffolded | not started | not started | not started | none |
-| 21.87 | scaffolded | not started | not started | not started | none |
+| 21.87 | proof-path sources audited | not used by proof | experimental pilot only | critical crown and orbit count complete | claimed complete proof draft |
 
-The next mathematical action, when work resumes, is Stage 0 / Stage 1A for
-Problem 19.54. The present setup session stops before that action.
+Problem 21.87 is active under a direct-user scheduling exception. Its initial
+solution candidate is awaiting an exact commit freeze before the first
+revision/referee round. Problems 19.54 and 18.68 retain their pre-existing
+states.

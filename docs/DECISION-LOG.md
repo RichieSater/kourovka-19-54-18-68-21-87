@@ -51,3 +51,12 @@ favorable pass from being treated as external validation.
 Problems 10.34, 19.57, and 19.58 are included as retrospectively mapped legacy
 projects. Their public artifacts are preprints/research releases; external
 specialist peer review remains a separate outstanding status.
+
+## 2026-08-11 — Problem 21.87 scheduling exception
+
+**Decision:** activate Problem 21.87 immediately, before Problems 19.54 and
+18.68.
+
+**Reasoning:** the user explicitly requested a complete solution to Problem
+21.87. This overrides the default attack order for the current work while
+leaving the other two projects' mathematical and milestone states unchanged.

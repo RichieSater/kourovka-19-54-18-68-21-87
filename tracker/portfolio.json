@@ -262,14 +262,14 @@
       "problem": "21.87",
       "workstream": "problem-21-87",
       "local_repository": ".",
-      "mathematical_status": "open_target_scaffolded",
+      "mathematical_status": "claimed_complete_solution_draft",
       "publication_status": "none",
-      "external_specialist_review": "not_applicable",
+      "external_specialist_review": "outstanding",
       "public_artifacts": [],
       "milestones": {
         "initial_solution": {
-          "status": "not_started",
-          "evidence": "problem-21-87/REVIEW-PLAN.md"
+          "status": "in_progress",
+          "evidence": "problem-21-87/reviews/00-initial-solution.md; candidate freeze pending"
         },
         "revision_1": {
           "status": "not_started",
