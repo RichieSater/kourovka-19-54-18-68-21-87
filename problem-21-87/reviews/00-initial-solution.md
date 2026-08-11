@@ -1,9 +1,8 @@
 # Initial solution candidate
 
 - **Problem:** Kourovka 21.87
-- **Candidate commit:** pending freeze; the exact hash will be recorded before
-  Revision 1 begins
-- **Date frozen:** pending
+- **Candidate commit:** `b3b07ccf0c4517cdd2aece4364f906c948e238f5`
+- **Date frozen:** 2026-08-11
 - **Claimed result:** affirmative answer, \(d(G)\leq d+1\)
 - **Evidence status:** proved modulo explicitly stated published inputs;
   neither externally reviewed nor published
@@ -112,4 +111,4 @@ From the repository root:
 - [x] Positive classifications are exhaustive through named published inputs.
 - [x] No negative finite family is delegated to an incomplete search.
 - [x] Manuscript, README, and tracker state the same scope.
-- [ ] Candidate commit frozen and recorded before Revision 1.
+- [x] Candidate commit frozen and recorded before Revision 1.

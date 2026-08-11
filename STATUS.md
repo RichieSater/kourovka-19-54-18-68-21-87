@@ -25,6 +25,5 @@
 | 21.87 | proof-path sources audited | not used by proof | experimental pilot only | critical crown and orbit count complete | claimed complete proof draft |
 
 Problem 21.87 is active under a direct-user scheduling exception. Its initial
-solution candidate is awaiting an exact commit freeze before the first
-revision/referee round. Problems 19.54 and 18.68 retain their pre-existing
-states.
+solution candidate is frozen at commit `b3b07cc`; Revision 1 is next.
+Problems 19.54 and 18.68 retain their pre-existing states.

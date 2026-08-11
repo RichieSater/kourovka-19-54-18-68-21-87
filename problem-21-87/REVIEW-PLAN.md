@@ -1,6 +1,7 @@
 # Problem 21.87 solution and review plan
 
-**Current stage:** initial solution candidate in progress; freeze pending.
+**Current stage:** initial solution candidate complete and frozen; Revision 1
+not started.
 **Generic protocol:**
 [`../docs/SOLUTION-REVIEW-WORKFLOW.md`](../docs/SOLUTION-REVIEW-WORKFLOW.md)
 
@@ -8,7 +9,7 @@
 
 | Milestone | Status | Required focus | Artifact |
 |---|---|---|---|
-| Initial solution | in progress | Exact \(d+1\) proof or explicit counterexample | `reviews/00-initial-solution.md`; freeze hash pending |
+| Initial solution | complete | Exact \(d+1\) proof or explicit counterexample | `reviews/00-initial-solution.md`; `b3b07cc` |
 | Revision 1 | not started | Published-proof reconstruction, gcd/Sylow and quotient kernel | `reviews/01-revision.md` |
 | Referee 1 | not started | Independent logical and generator-bound audit | `reviews/01-referee.md` |
 | Revision 2 | not started | Primitive, monolithic, and crown-based-power completeness | `reviews/02-revision.md` |
@@ -28,8 +29,7 @@ reformulation, and distinguish an actual generator lower bound from a failed
 search for a smaller generating set.
 
 The manuscript supplies a complete affirmative proof without using the
-exploratory computation. The initial candidate must be committed and its exact
-hash recorded before Revision 1 begins.
+exploratory computation. Candidate commit `b3b07cc` is frozen for Revision 1.
 
 ## Four review rounds
 
