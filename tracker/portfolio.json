@@ -276,8 +276,8 @@
           "evidence": "commit 671b5c45d2bed165a9efb8ec58167b0c8f834fdd; problem-21-87/reviews/01-revision.md"
         },
         "referee_1": {
-          "status": "not_started",
-          "evidence": "problem-21-87/REVIEW-PLAN.md"
+          "status": "complete",
+          "evidence": "problem-21-87/reviews/01-referee.md; pass on frozen candidate 671b5c45d2bed165a9efb8ec58167b0c8f834fdd"
         },
         "revision_2": {
           "status": "not_started",
