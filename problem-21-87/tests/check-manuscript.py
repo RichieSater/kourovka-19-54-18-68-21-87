@@ -102,8 +102,8 @@ def validate(manuscript: str, bibliography: str, rows: list[dict[str, str]]) -> 
     lower = " ".join(manuscript.lower().split())
     if "no computer calculation enters it" not in lower:
         failures.append("manuscript does not state the computational evidence boundary")
-    if "external specialist" not in lower:
-        failures.append("manuscript does not state the external-review boundary")
+    if "author is responsible for all content and mathematical claims" not in lower:
+        failures.append("manuscript does not state the author-responsibility boundary")
 
     fieldnames = {
         "id",
